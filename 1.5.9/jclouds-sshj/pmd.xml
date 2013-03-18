@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T16:51:56.909">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/drivers/sshj/src/main/java/org/jclouds/sshj/SSHClientConnection.java">
+<violation beginline="119" endline="121" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.sshj" class="SSHClientConnection" method="clear" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/drivers/sshj/src/main/java/org/jclouds/sshj/SshjSshClient.java">
+<violation beginline="19" endline="556" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.sshj" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
