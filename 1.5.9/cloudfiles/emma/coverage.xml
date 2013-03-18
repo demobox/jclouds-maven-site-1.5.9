@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Mar 18 16:08:18 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="9"/>
+    <classes value="21"/>
+    <methods value="69"/>
+    <srcfiles value="13"/>
+    <srclines value="166"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="86%  (18/21)"/>
+      <coverage type="method, %" value="68%  (47/69)"/>
+      <coverage type="block, %" value="57%  (450/785)"/>
+      <coverage type="line, %" value="60%  (99/166)"/>
+
+      <package name="org.jclouds.cloudfiles.options">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/9)"/>
+        <coverage type="block, %" value="0%   (0/76)"/>
+        <coverage type="line, %" value="0%   (0/17)"/>
+
+        <srcfile name="ListCdnContainerOptions.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/9)"/>
+          <coverage type="block, %" value="0%   (0/76)"/>
+          <coverage type="line, %" value="0%   (0/17)"/>
+
+          <class name="ListCdnContainerOptions">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/50)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ListCdnContainerOptions (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="afterMarker (String): ListCdnContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="enabledOnly (): ListCdnContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="maxResults (int): ListCdnContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+          </class>
+          <class name="ListCdnContainerOptions$Builder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/26)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="ListCdnContainerOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="afterMarker (String): ListCdnContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="enabledOnly (): ListCdnContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="maxResults (int): ListCdnContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.blobstore">
+        <coverage type="class, %" value="67%  (2/3)"/>
+        <coverage type="method, %" value="29%  (2/7)"/>
+        <coverage type="block, %" value="34%  (42/122)"/>
+        <coverage type="line, %" value="35%  (6/17)"/>
+
+        <srcfile name="CloudFilesAsyncBlobStore.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="20%  (1/5)"/>
+          <coverage type="block, %" value="29%  (22/76)"/>
+          <coverage type="line, %" value="27%  (3/11)"/>
+
+          <class name="CloudFilesAsyncBlobStore$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/28)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="CloudFilesAsyncBlobStore$1 (CloudFilesAsyncBlobStore, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Boolean): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="CloudFilesAsyncBlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="46%  (22/48)"/>
+            <coverage type="line, %" value="38%  (3/8)"/>
+
+            <method name="access$000 (CloudFilesAsyncBlobStore): EnableCDNAndCache">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="CloudFilesAsyncBlobStore (BlobStoreContext, BlobUtils, ExecutorService, Supplier, Supplier, CloudFilesClient, CloudFilesAsyncClient, ContainerToResourceMetadata, BlobStoreListContainerOptionsToListContainerOptions, ContainerToResourceList, ObjectToBlob, BlobToObject, ObjectToBlobMetadata, BlobToHttpGetOptions, Provider, EnableCDNAndCache, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudFilesBlobStore.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="43%  (20/46)"/>
+          <coverage type="line, %" value="50%  (3/6)"/>
+
+          <class name="CloudFilesBlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="43%  (20/46)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/26)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="CloudFilesBlobStore (BlobStoreContext, BlobUtils, Supplier, Supplier, CommonSwiftClient, ContainerToResourceMetadata, BlobStoreListContainerOptionsToListContainerOptions, ContainerToResourceList, ObjectToBlob, BlobToObject, ObjectToBlobMetadata, BlobToHttpGetOptions, Provider, EnableCDNAndCache, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.domain">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="67%  (10/15)"/>
+        <coverage type="block, %" value="35%  (62/179)"/>
+        <coverage type="line, %" value="49%  (20/41)"/>
+
+        <srcfile name="ContainerCDNMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (10/15)"/>
+          <coverage type="block, %" value="35%  (62/179)"/>
+          <coverage type="line, %" value="49%  (20/41)"/>
+
+          <class name="ContainerCDNMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (10/15)"/>
+            <coverage type="block, %" value="35%  (62/179)"/>
+            <coverage type="line, %" value="49%  (20/41)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="getReferrerACL (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getUseragentACL (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/53)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="compareTo (ContainerCDNMetadata): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="88%  (14/16)"/>
+              <coverage type="line, %" value="67%  (2/3)"/>
+            </method>
+            <method name="ContainerCDNMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ContainerCDNMetadata (String, boolean, boolean, long, URI, URI, URI): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="getCDNSslUri (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCDNStreamingUri (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCDNUri (): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getTTL (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="isCDNEnabled (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="isLogRetention (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.blobstore.functions">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="86%  (6/7)"/>
+        <coverage type="block, %" value="52%  (49/95)"/>
+        <coverage type="line, %" value="58%  (19/33)"/>
+
+        <srcfile name="PublicUriForObjectInfo.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="37%  (19/51)"/>
+          <coverage type="line, %" value="44%  (8/18)"/>
+
+          <class name="PublicUriForObjectInfo">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="37%  (19/51)"/>
+            <coverage type="line, %" value="44%  (8/18)"/>
+
+            <method name="apply (ObjectInfo): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="22%  (9/41)"/>
+              <coverage type="line, %" value="29%  (4/14)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="PublicUriForObjectInfo (LoadingCache): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="EnableCDNAndCache.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="43%  (9/21)"/>
+          <coverage type="line, %" value="57%  (4/7)"/>
+
+          <class name="EnableCDNAndCache">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="43%  (9/21)"/>
+            <coverage type="line, %" value="57%  (4/7)"/>
+
+            <method name="apply (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="EnableCDNAndCache (CloudFilesClient, LoadingCache): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CloudFilesObjectToBlobMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="91%  (21/23)"/>
+          <coverage type="line, %" value="88%  (7/8)"/>
+
+          <class name="CloudFilesObjectToBlobMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="91%  (21/23)"/>
+            <coverage type="line, %" value="88%  (7/8)"/>
+
+            <method name="apply (ObjectInfo): MutableBlobMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="88%  (14/16)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="CloudFilesObjectToBlobMetadata (IfDirectoryReturnNameStrategy, PublicUriForObjectInfo): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.blobstore.config">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="67%  (4/6)"/>
+        <coverage type="block, %" value="76%  (44/58)"/>
+        <coverage type="line, %" value="70%  (7/10)"/>
+
+        <srcfile name="CloudFilesBlobStoreContextModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="67%  (4/6)"/>
+          <coverage type="block, %" value="76%  (44/58)"/>
+          <coverage type="line, %" value="70%  (7/10)"/>
+
+          <class name="CloudFilesBlobStoreContextModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="39%  (9/23)"/>
+            <coverage type="line, %" value="25%  (1/4)"/>
+
+            <method name="load (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="CloudFilesBlobStoreContextModule$1 (CloudFilesBlobStoreContextModule, CloudFilesClient): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CloudFilesBlobStoreContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (35/35)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="CloudFilesBlobStoreContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="cdnContainer (CloudFilesClient): LoadingCache">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.functions">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (5/5)"/>
+        <coverage type="block, %" value="98%  (85/87)"/>
+        <coverage type="line, %" value="93%  (14/15)"/>
+
+        <srcfile name="ParseContainerCDNMetadataFromHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="97%  (72/74)"/>
+          <coverage type="line, %" value="92%  (11/12)"/>
+
+          <class name="ParseContainerCDNMetadataFromHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="97%  (72/74)"/>
+            <coverage type="line, %" value="92%  (11/12)"/>
+
+            <method name="apply (HttpResponse): ContainerCDNMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (64/66)"/>
+              <coverage type="line, %" value="89%  (8/9)"/>
+            </method>
+            <method name="ParseContainerCDNMetadataFromHeaders (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseContainerCDNMetadataFromHeaders">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseCdnUriFromHeaders.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (13/13)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="ParseCdnUriFromHeaders">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (13/13)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="ParseCdnUriFromHeaders (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (HttpResponse): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="100% (13/13)"/>
+        <coverage type="block, %" value="100% (91/91)"/>
+        <coverage type="line, %" value="100% (18/18)"/>
+
+        <srcfile name="CloudFilesApiMetadata.java">
+          <coverage type="class, %" value="100% (5/5)"/>
+          <coverage type="method, %" value="100% (13/13)"/>
+          <coverage type="block, %" value="100% (91/91)"/>
+          <coverage type="line, %" value="100% (18/18)"/>
+
+          <class name="CloudFilesApiMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (6/6)"/>
+            <coverage type="block, %" value="100% (25/25)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="CloudFilesApiMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="CloudFilesApiMetadata (CloudFilesApiMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): CloudFilesApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="toBuilder (): CloudFilesApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CloudFilesApiMetadata$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="CloudFilesApiMetadata$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CloudFilesApiMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (44/44)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="CloudFilesApiMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): CloudFilesApiMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromApiMetadata (ApiMetadata): CloudFilesApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="CloudFilesApiMetadata$CloudFilesTemporaryUrlExtensionModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (13/13)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="CloudFilesApiMetadata$CloudFilesTemporaryUrlExtensionModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindRequestSigner (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="CloudFilesApiMetadata$CloudFilesTemporaryUrlExtensionModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="CloudFilesApiMetadata$CloudFilesTemporaryUrlExtensionModule$1 (CloudFilesApiMetadata$CloudFilesTemporaryUrlExtensionModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.binders">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (33/33)"/>
+        <coverage type="line, %" value="100% (7/7)"/>
+
+        <srcfile name="BindIterableToHeadersWithPurgeCDNObjectEmail.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (33/33)"/>
+          <coverage type="line, %" value="100% (7/7)"/>
+
+          <class name="BindIterableToHeadersWithPurgeCDNObjectEmail">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (33/33)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="BindIterableToHeadersWithPurgeCDNObjectEmail (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.cloudfiles.config">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (5/5)"/>
+        <coverage type="block, %" value="100% (44/44)"/>
+        <coverage type="line, %" value="100% (8/8)"/>
+
+        <srcfile name="CloudFilesRestClientModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (44/44)"/>
+          <coverage type="line, %" value="100% (8/8)"/>
+
+          <class name="CloudFilesRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (23/23)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="CloudFilesRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="bindResolvedClientsToCommonSwift (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="CloudFilesRestClientModule$StorageAndCDNManagementEndpointModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="CloudFilesRestClientModule$StorageAndCDNManagementEndpointModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="provideCDNUrl (RegionIdToURISupplier$Factory, V1DefaultRegionIdSupplier$Factory): Supplier">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="provideStorageUrl (RegionIdToURISupplier$Factory, V1DefaultRegionIdSupplier$Factory): Supplier">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
