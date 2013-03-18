@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T17:04:05.429">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/loadbalancer/src/main/java/org/jclouds/loadbalancer/LoadBalancerServiceContextFactory.java">
+<violation beginline="59" endline="60" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.loadbalancer" class="LoadBalancerServiceContextFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'properties'.
+</violation>
+</file>
+</pmd>
