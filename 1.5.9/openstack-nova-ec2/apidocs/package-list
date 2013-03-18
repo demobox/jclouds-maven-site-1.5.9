@@ -1,0 +1,7 @@
+org.jclouds.openstack.nova.ec2
+org.jclouds.openstack.nova.ec2.config
+org.jclouds.openstack.nova.ec2.internal
+org.jclouds.openstack.nova.ec2.loaders
+org.jclouds.openstack.nova.ec2.services
+org.jclouds.openstack.nova.ec2.strategy
+org.jclouds.openstack.nova.ec2.xml
