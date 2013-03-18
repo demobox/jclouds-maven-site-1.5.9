@@ -1,0 +1,7 @@
+org.jclouds.openstack.cinder.v1
+org.jclouds.openstack.cinder.v1.config
+org.jclouds.openstack.cinder.v1.domain
+org.jclouds.openstack.cinder.v1.features
+org.jclouds.openstack.cinder.v1.handlers
+org.jclouds.openstack.cinder.v1.options
+org.jclouds.openstack.cinder.v1.predicates
