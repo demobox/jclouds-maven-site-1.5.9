@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T18:07:42.751">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/EC2ApiMetadata.java">
+<violation beginline="19" endline="124" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/binders/BindBlockDeviceMappingToIndexedFormParams.java">
+<violation beginline="19" endline="69" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/compute/EC2ComputeService.java">
+<violation beginline="19" endline="257" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="74" endline="74" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.domain.Tag'
+</violation>
+<violation beginline="75" endline="75" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.util.SubnetFilterBuilder'
+</violation>
+<violation beginline="76" endline="76" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.util.TagFilterBuilder'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java">
+<violation beginline="19" endline="201" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="130" endline="136" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ec2.compute.strategy" class="CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions" method="createNewKeyPairUnlessUserSpecifiedOtherwise" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/EC2CreateNodesInGroupThenAddToSet.java">
+<violation beginline="19" endline="245" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/EC2ListNodesStrategy.java">
+<violation beginline="19" endline="117" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/compute/suppliers/EC2HardwareSupplier.java">
+<violation beginline="19" endline="48" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/domain/Subnet.java">
+<violation beginline="150" endline="154" begincolumn="18" endcolumn="4" rule="UnnecessaryFinalModifier" ruleset="Basic Rules" package="org.jclouds.ec2.domain" class="Subnet" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UnnecessaryFinalModifier" priority="3">
+Unnecessary final modifier in final class
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/features/SubnetApi.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Map'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/options/RunInstancesOptions.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.ec2.domain.InstanceType'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/options/internal/BaseEC2RequestOptions.java">
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.options.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Predicate'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/services/ElasticIPAddressClient.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="44" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.ec2.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.aws.AWSResponseException'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/xml/BaseReservationHandler.java">
+<violation beginline="126" endline="126" begincolumn="15" endcolumn="23" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.ec2.xml" class="BaseReservationHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+<violation beginline="157" endline="157" begincolumn="15" endcolumn="23" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.ec2.xml" class="BaseReservationHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/ec2/src/main/java/org/jclouds/ec2/xml/CreateVolumeResponseHandler.java">
+<violation beginline="135" endline="142" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.ec2.xml" class="CreateVolumeResponseHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>
