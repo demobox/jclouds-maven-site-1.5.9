@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T17:23:13.265">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/functions/VirtualMachineToNodeMetadata.java">
+<violation beginline="19" endline="218" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/AdvancedNetworkOptionsConverter.java">
+<violation beginline="19" endline="64" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/CloudStackComputeServiceAdapter.java">
+<violation beginline="19" endline="397" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/config/CloudStackRestClientModule.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Throwables.propagate'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/features/VirtualMachineAsyncClient.java">
+<violation beginline="40" endline="40" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.annotations.Unwrap'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/filters/QuerySigner.java">
+<violation beginline="19" endline="143" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/ReuseOrAssociateNewPublicIPAddress.java">
+<violation beginline="19" endline="107" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/StaticNATVirtualMachineInNetwork.java">
+<violation beginline="77" endline="79" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.cloudstack.functions" class="StaticNATVirtualMachineInNetwork" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/options/AssignVirtualMachineOptions.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="65" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkArgument'
+</violation>
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="64" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkNotNull'
+</violation>
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Map'
+</violation>
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.encryption.internal.Base64'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/strategy/BlockUntilJobCompletesAndReturnResult.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.ExecutionException'
+</violation>
+</file>
+</pmd>

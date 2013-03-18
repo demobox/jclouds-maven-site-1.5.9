@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="130" tokens="375">
+<file line="213" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ISOExtraction.java"/>
+<file line="211" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/TemplateExtraction.java"/>
+<codefragment>
+<![CDATA[
+   protected ISOExtraction(String id, @Nullable String accountId, @Nullable Date created, @Nullable String extractId,
+                           @Nullable ExtractMode extractMode, @Nullable String name, @Nullable String state, @Nullable String status,
+                           @Nullable String storageType, int uploadPercentage, @Nullable String url, @Nullable String zoneId,
+                           @Nullable String zoneName) {
+      this.id = checkNotNull(id, "id");
+      this.accountId = accountId;
+      this.created = created;
+      this.extractId = extractId;
+      this.extractMode = extractMode;
+      this.name = name;
+      this.state = state;
+      this.status = status;
+      this.storageType = storageType;
+      this.uploadPercentage = uploadPercentage;
+      this.url = url;
+      this.zoneId = zoneId;
+      this.zoneName = zoneName;
+   }
+
+   /**
+    * @return the id of extracted object
+    */
+   public String getId() {
+      return this.id;
+   }
+
+   /**
+    * @return the account id to which the extracted object belongs
+    */
+   @Nullable
+   public String getAccountId() {
+      return this.accountId;
+   }
+
+   /**
+    * @return the time and date the object was created
+    */
+   @Nullable
+   public Date getCreated() {
+      return this.created;
+   }
+
+   /**
+    * @return the upload id of extracted object
+    */
+   @Nullable
+   public String getExtractId() {
+      return this.extractId;
+   }
+
+   /**
+    * @return the mode of extraction - upload or download
+    */
+   @Nullable
+   public ExtractMode getExtractMode() {
+      return this.extractMode;
+   }
+
+   /**
+    * @return the name of the extracted object
+    */
+   @Nullable
+   public String getName() {
+      return this.name;
+   }
+
+   /**
+    * @return the state of the extracted object
+    */
+   @Nullable
+   public String getState() {
+      return this.state;
+   }
+
+   /**
+    * @return the status of the extraction
+    */
+   @Nullable
+   public String getStatus() {
+      return this.status;
+   }
+
+   /**
+    * @return type of the storage
+    */
+   @Nullable
+   public String getStorageType() {
+      return this.storageType;
+   }
+
+   /**
+    * @return the percentage of the entity uploaded to the specified location
+    */
+   public int getUploadPercentage() {
+      return this.uploadPercentage;
+   }
+
+   /**
+    * @return if mode = upload then url of the uploaded entity. if mode = download the url from which the entity can be downloaded
+    */
+   @Nullable
+   public String getUrl() {
+      return this.url;
+   }
+
+   /**
+    * @return zone ID the object was extracted from
+    */
+   @Nullable
+   public String getZoneId() {
+      return this.zoneId;
+   }
+
+   /**
+    * @return zone name the object was extracted from
+    */
+   @Nullable
+   public String getZoneName() {
+      return this.zoneName;
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hashCode(id, accountId, created, extractId, extractMode, name, state, status, storageType, uploadPercentage, url, zoneId, zoneName);
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj) return true;
+      if (obj == null || getClass() != obj.getClass()) return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="27" tokens="299">
+<file line="343" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ISOExtraction.java"/>
+<file line="341" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/TemplateExtraction.java"/>
+<codefragment>
+<![CDATA[
+      ISOExtraction that = ISOExtraction.class.cast(obj);
+      return Objects.equal(this.id, that.id)
+            && Objects.equal(this.accountId, that.accountId)
+            && Objects.equal(this.created, that.created)
+            && Objects.equal(this.extractId, that.extractId)
+            && Objects.equal(this.extractMode, that.extractMode)
+            && Objects.equal(this.name, that.name)
+            && Objects.equal(this.state, that.state)
+            && Objects.equal(this.status, that.status)
+            && Objects.equal(this.storageType, that.storageType)
+            && Objects.equal(this.uploadPercentage, that.uploadPercentage)
+            && Objects.equal(this.url, that.url)
+            && Objects.equal(this.zoneId, that.zoneId)
+            && Objects.equal(this.zoneName, that.zoneName);
+   }
+
+   protected ToStringHelper string() {
+      return Objects.toStringHelper(this)
+            .add("id", id).add("accountId", accountId).add("created", created).add("extractId", extractId).add("extractMode", extractMode)
+            .add("name", name).add("state", state).add("status", status).add("storageType", storageType).add("uploadPercentage", uploadPercentage)
+            .add("url", url).add("zoneId", zoneId).add("zoneName", zoneName);
+   }
+
+   @Override
+   public String toString() {
+      return string().toString();
+   }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="125" tokens="298">
+<file line="43" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ISOExtraction.java"/>
+<file line="41" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/TemplateExtraction.java"/>
+<codefragment>
+<![CDATA[
+      return new ConcreteBuilder().fromISOExtraction(this);
+   }
+
+   public static abstract class Builder<T extends Builder<T>> {
+      protected abstract T self();
+
+      protected String id;
+      protected String accountId;
+      protected Date created;
+      protected String extractId;
+      protected ExtractMode extractMode;
+      protected String name;
+      protected String state;
+      protected String status;
+      protected String storageType;
+      protected int uploadPercentage;
+      protected String url;
+      protected String zoneId;
+      protected String zoneName;
+
+      /**
+       * @see ISOExtraction#getId()
+       */
+      public T id(String id) {
+         this.id = id;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getAccountId()
+       */
+      public T accountId(String accountId) {
+         this.accountId = accountId;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getCreated()
+       */
+      public T created(Date created) {
+         this.created = created;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getExtractId()
+       */
+      public T extractId(String extractId) {
+         this.extractId = extractId;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getExtractMode()
+       */
+      public T extractMode(ExtractMode extractMode) {
+         this.extractMode = extractMode;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getName()
+       */
+      public T name(String name) {
+         this.name = name;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getState()
+       */
+      public T state(String state) {
+         this.state = state;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getStatus()
+       */
+      public T status(String status) {
+         this.status = status;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getStorageType()
+       */
+      public T storageType(String storageType) {
+         this.storageType = storageType;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getUploadPercentage()
+       */
+      public T uploadPercentage(int uploadPercentage) {
+         this.uploadPercentage = uploadPercentage;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getUrl()
+       */
+      public T url(String url) {
+         this.url = url;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getZoneId()
+       */
+      public T zoneId(String zoneId) {
+         this.zoneId = zoneId;
+         return self();
+      }
+
+      /**
+       * @see ISOExtraction#getZoneName()
+       */
+      public T zoneName(String zoneName) {
+         this.zoneName = zoneName;
+         return self();
+      }
+
+      public ISOExtraction build() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="43" tokens="230">
+<file line="171" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ISOExtraction.java"/>
+<file line="169" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/TemplateExtraction.java"/>
+<codefragment>
+<![CDATA[
+      public T fromISOExtraction(ISOExtraction in) {
+         return this
+               .id(in.getId())
+               .accountId(in.getAccountId())
+               .created(in.getCreated())
+               .extractId(in.getExtractId())
+               .extractMode(in.getExtractMode())
+               .name(in.getName())
+               .state(in.getState())
+               .status(in.getStatus())
+               .storageType(in.getStorageType())
+               .uploadPercentage(in.getUploadPercentage())
+               .url(in.getUrl())
+               .zoneId(in.getZoneId())
+               .zoneName(in.getZoneName());
+      }
+   }
+
+   private static class ConcreteBuilder extends Builder<ConcreteBuilder> {
+      @Override
+      protected ConcreteBuilder self() {
+         return this;
+      }
+   }
+
+   private final String id;
+   private final String accountId;
+   private final Date created;
+   private final String extractId;
+   private final ExtractMode extractMode;
+   private final String name;
+   private final String state;
+   private final String status;
+   private final String storageType;
+   private final int uploadPercentage;
+   private final String url;
+   private final String zoneId;
+   private final String zoneName;
+
+   @ConstructorProperties({
+         "id", "accountid", "created", "extractId", "extractMode", "name", "state", "status", "storagetype", "uploadpercentage", "url", "zoneid", "zonename"
+   })
+   protected ISOExtraction(String id, @Nullable String accountId, @Nullable Date created, @Nullable String extractId,
+]]>
+</codefragment>
+</duplication>
+<duplication lines="28" tokens="129">
+<file line="59" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/options/AssignVirtualMachineOptions.java"/>
+<file line="153" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/options/DeployVirtualMachineOptions.java"/>
+<codefragment>
+<![CDATA[
+   public AssignVirtualMachineOptions networkIds(Iterable<String> networkIds) {
+      this.queryParameters.replaceValues("networkids", ImmutableSet.of(Joiner.on(',').join(networkIds)));
+      return this;
+   }
+
+   public Iterable<String> getNetworkIds() {
+      if (queryParameters.get("networkids").size() == 1) {
+         return Iterables.transform(
+               Splitter.on(",").split(Iterables.getOnlyElement(queryParameters.get("networkids"))),
+               new Function<String, String>() {
+
+                  @Override
+                  public String apply(String arg0) {
+                     return arg0;
+                  }
+
+               });
+      } else {
+         return ImmutableSet.<String> of();
+      }
+   }
+
+   /**
+    * @param securityGroupId
+    *           security group applied to the virtual machine. Should be passed
+    *           only when vm is created from a zone with Basic Network support
+    */
+   public AssignVirtualMachineOptions securityGroupId(String securityGroupId) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="54" tokens="127">
+<file line="59" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/DiskOffering.java"/>
+<file line="67" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ServiceOffering.java"/>
+<codefragment>
+<![CDATA[
+      protected ImmutableSet.Builder<String> tags = ImmutableSet.<String>builder();
+
+      /**
+       * @see DiskOffering#getId()
+       */
+      public T id(String id) {
+         this.id = id;
+         return self();
+      }
+
+      /**
+       * @see DiskOffering#getName()
+       */
+      public T name(String name) {
+         this.name = name;
+         return self();
+      }
+
+      /**
+       * @see DiskOffering#getDisplayText()
+       */
+      public T displayText(String displayText) {
+         this.displayText = displayText;
+         return self();
+      }
+
+      /**
+       * @see DiskOffering#getCreated()
+       */
+      public T created(Date created) {
+         this.created = created;
+         return self();
+      }
+
+      /**
+       * @see DiskOffering#getDomain()
+       */
+      public T domain(String domain) {
+         this.domain = domain;
+         return self();
+      }
+
+      /**
+       * @see DiskOffering#getDomainId()
+       */
+      public T domainId(String domainId) {
+         this.domainId = domainId;
+         return self();
+      }
+
+      /**
+       * @see DiskOffering#getDiskSize()
+       */
+      public T diskSize(int diskSize) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="40" tokens="116">
+<file line="115" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/Network.java"/>
+<file line="79" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/Zone.java"/>
+<codefragment>
+<![CDATA[
+         return self();
+      }
+
+      /**
+       * @see Network#getDisplayText()
+       */
+      public T displayText(String displayText) {
+         this.displayText = displayText;
+         return self();
+      }
+
+      /**
+       * @return the DNS for the Network
+       */
+      public T DNS(List<String> DNS) {
+         if (!DNS.isEmpty()) this.DNS1 = DNS.get(0);
+         if (DNS.size() > 1) this.DNS2 = DNS.get(1);
+         return self();
+      }
+
+      /**
+       * @see Network#getDomain()
+       */
+      public T domain(String domain) {
+         this.domain = domain;
+         return self();
+      }
+
+      /**
+       * @see Network#getDomainId()
+       */
+      public T domainId(String domainId) {
+         this.domainId = domainId;
+         return self();
+      }
+
+      /**
+       * @see Network#getEndIP()
+       */
+      public T endIP(String endIP) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="40" tokens="113">
+<file line="487" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/Network.java"/>
+<file line="278" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/Zone.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   /**
+    * @return the display text of the zone
+    */
+   @Nullable
+   public String getDisplayText() {
+      return this.displayText;
+   }
+
+   public List<String> getDNS() {
+      ImmutableList.Builder<String> builder = ImmutableList.builder();
+      if (DNS1 != null && !"".equals(DNS1))
+         builder.add(DNS1);
+      if (DNS2 != null && !"".equals(DNS2))
+         builder.add(DNS2);
+      return builder.build();
+   }
+
+   /**
+    * @return Domain name for the Network
+    */
+   @Nullable
+   public String getDomain() {
+      return this.domain;
+   }
+
+   /**
+    * @return the domain id of the Network
+    */
+   @Nullable
+   public String getDomainId() {
+      return this.domainId;
+   }
+
+   /**
+    * @return the end ip of the network
+    */
+   @Nullable
+   public String getEndIP() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="33" tokens="105">
+<file line="58" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/FirewallRule.java"/>
+<file line="56" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/PortForwardingRule.java"/>
+<codefragment>
+<![CDATA[
+         return name().toUpperCase();
+      }
+   }
+
+   public static enum State {
+      STAGED,     // Rule been created but has never got through network rule conflict detection.
+      // Rules in this state can not be sent to network elements.
+      ADD,        // Add means the rule has been created and has gone through network rule conflict detection.
+      ACTIVE,     // Rule has been sent to the network elements and reported to be active.
+      DELETING,   // Revoke means this rule has been revoked. If this rule has been sent to the
+      // network elements, the rule will be deleted from database.
+      UNKNOWN;
+
+      public static State fromValue(String value) {
+         try {
+            return valueOf(value.toUpperCase());
+         } catch (IllegalArgumentException e) {
+            return UNKNOWN;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return CaseFormat.UPPER_UNDERSCORE.to(CaseFormat.UPPER_CAMEL, name());
+      }
+   }
+
+   public static Builder<?> builder() {
+      return new ConcreteBuilder();
+   }
+
+   public Builder<?> toBuilder() {
+      return new ConcreteBuilder().fromFirewallRule(this);
+]]>
+</codefragment>
+</duplication>
+<duplication lines="23" tokens="101">
+<file line="42" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/PublicIPAddress.java"/>
+<file line="46" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/VirtualMachine.java"/>
+<codefragment>
+<![CDATA[
+      ALLOCATING, ALLOCATED, RELEASING, UNRECOGNIZED;
+
+      @Override
+      public String toString() {
+         return CaseFormat.UPPER_UNDERSCORE.to(CaseFormat.UPPER_CAMEL, name());
+      }
+
+      public static State fromValue(String state) {
+         try {
+            return valueOf(CaseFormat.UPPER_CAMEL.to(CaseFormat.UPPER_UNDERSCORE, checkNotNull(state, "state")));
+         } catch (IllegalArgumentException e) {
+            return UNRECOGNIZED;
+         }
+      }
+
+   }
+
+   public static Builder<?> builder() {
+      return new ConcreteBuilder();
+   }
+
+   public Builder<?> toBuilder() {
+      return new ConcreteBuilder().fromPublicIPAddress(this);
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
