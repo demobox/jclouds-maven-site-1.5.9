@@ -1,0 +1,17 @@
+org.jclouds.openstack.config
+org.jclouds.openstack.domain
+org.jclouds.openstack.filters
+org.jclouds.openstack.functions
+org.jclouds.openstack.handlers
+org.jclouds.openstack.internal
+org.jclouds.openstack.keystone.v1_1
+org.jclouds.openstack.keystone.v1_1.binders
+org.jclouds.openstack.keystone.v1_1.config
+org.jclouds.openstack.keystone.v1_1.domain
+org.jclouds.openstack.keystone.v1_1.functions
+org.jclouds.openstack.keystone.v1_1.handlers
+org.jclouds.openstack.keystone.v1_1.suppliers
+org.jclouds.openstack.options
+org.jclouds.openstack.predicates
+org.jclouds.openstack.reference
+org.jclouds.openstack.services

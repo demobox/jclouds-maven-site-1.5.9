@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T16:28:55.831">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/common/openstack/src/main/java/org/jclouds/openstack/functions/ParseAuthenticationResponseFromHeaders.java">
+<violation beginline="19" endline="93" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="77" endline="77" begincolumn="12" endcolumn="22" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.openstack.functions" class="ParseAuthenticationResponseFromHeaders" method="getURI" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/common/openstack/src/main/java/org/jclouds/openstack/keystone/v1_1/config/AuthenticationServiceModule.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.keystone.v1_1.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Throwables.propagate'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/common/openstack/src/main/java/org/jclouds/openstack/keystone/v1_1/suppliers/RegionIdToURIFromAuthForServiceSupplier.java">
+<violation beginline="48" endline="55" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.openstack.keystone.v1_1.suppliers" class="RegionIdToURIFromAuthForServiceSupplier" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'apiVersion'.
+</violation>
+</file>
+</pmd>

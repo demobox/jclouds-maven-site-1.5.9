@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="35" tokens="162">
+<file line="53" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/common/openstack/src/main/java/org/jclouds/openstack/handlers/RetryOnRenew.java"/>
+<file line="53" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/common/openstack/src/main/java/org/jclouds/openstack/keystone/v1_1/handlers/RetryOnRenew.java"/>
+<codefragment>
+<![CDATA[
+   protected RetryOnRenew(LoadingCache<Credentials, AuthenticationResponse> authenticationResponseCache) {
+      this.authenticationResponseCache = authenticationResponseCache;
+   }
+
+   @Override
+   public boolean shouldRetryRequest(HttpCommand command, HttpResponse response) {
+      boolean retry = false; // default
+      try {
+         switch (response.getStatusCode()) {
+            case 401:
+               // Do not retry on 401 from authentication request
+               Multimap<String, String> headers = command.getCurrentRequest().getHeaders();
+               if (headers != null && headers.containsKey(AuthHeaders.AUTH_USER)
+                        && headers.containsKey(AuthHeaders.AUTH_KEY) && !headers.containsKey(AuthHeaders.AUTH_TOKEN)) {
+                  retry = false;
+               } else {
+                  byte[] content = closeClientButKeepContentStream(response);
+                  if (content != null && new String(content).contains("lease renew")) {
+                     logger.debug("invalidating authentication token");
+                     authenticationResponseCache.invalidateAll();
+                     retry = true;
+                  } else {
+                     retry = false;
+                  }
+               }
+               break;
+         }
+         return retry;
+
+      } finally {
+         releasePayload(response);
+      }
+   }
+
+}
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
