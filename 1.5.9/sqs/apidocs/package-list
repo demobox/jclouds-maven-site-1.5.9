@@ -1,0 +1,11 @@
+org.jclouds.sqs
+org.jclouds.sqs.binders
+org.jclouds.sqs.config
+org.jclouds.sqs.domain
+org.jclouds.sqs.features
+org.jclouds.sqs.functions
+org.jclouds.sqs.handlers
+org.jclouds.sqs.options
+org.jclouds.sqs.reference
+org.jclouds.sqs.xml
+org.jclouds.sqs.xml.internal

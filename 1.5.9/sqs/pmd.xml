@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T18:19:21.975">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/sqs/src/main/java/org/jclouds/sqs/features/MessageApi.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.sqs.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.net.URI'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/sqs/src/main/java/org/jclouds/sqs/xml/BatchResponseHandler.java">
+<violation beginline="57" endline="57" begincolumn="73" endcolumn="73" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.sqs.xml" class="BatchResponseHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="58" endline="58" begincolumn="73" endcolumn="73" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.sqs.xml" class="BatchResponseHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="59" endline="59" begincolumn="70" endcolumn="70" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.sqs.xml" class="BatchResponseHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/sqs/src/main/java/org/jclouds/sqs/xml/IdHandler.java">
+<violation beginline="37" endline="39" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.sqs.xml" class="IdHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'elementName'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/sqs/src/main/java/org/jclouds/sqs/xml/ValueHandler.java">
+<violation beginline="32" endline="34" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.sqs.xml" class="ValueHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'elementName'.
+</violation>
+</file>
+</pmd>
