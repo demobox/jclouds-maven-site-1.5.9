@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T16:32:40.325">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/InitBuilder.java">
+<violation beginline="19" endline="182" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/InitScript.java">
+<violation beginline="19" endline="337" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/CreateRunScript.java">
+<violation beginline="19" endline="177" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/statements/login/AdminAccessBuilderSpec.java">
+<violation beginline="13" endline="13" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder.statements.login" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'clojure.main'
+</violation>
+</file>
+</pmd>
