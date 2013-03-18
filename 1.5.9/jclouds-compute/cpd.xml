@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="21" tokens="134">
+<file line="43" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/compute/src/main/java/org/jclouds/cim/xml/ResourceAllocationSettingDataHandler.java"/>
+<file line="52" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/compute/src/main/java/org/jclouds/cim/xml/VirtualSystemSettingDataHandler.java"/>
+<codefragment>
+<![CDATA[
+         builder = ResourceAllocationSettingData.builder();
+      }
+   }
+
+   @Override
+   public void startElement(String uri, String localName, String qName, Attributes attrs) {
+   }
+
+   @Override
+   public void endElement(String uri, String localName, String qName) {
+      String current = currentOrNull(currentText);
+      if (current != null) {
+         if (equalsOrSuffix(qName, "ElementName")) {
+            builder.elementName(current);
+         } else if (equalsOrSuffix(qName, "InstanceID")) {
+            builder.instanceID(current);
+         } else if (equalsOrSuffix(qName, "Caption")) {
+            builder.caption(current);
+         } else if (equalsOrSuffix(qName, "Description")) {
+            builder.description(current);
+         } else if (equalsOrSuffix(qName, "Address")) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="49" tokens="133">
+<file line="269" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/compute/src/main/java/org/jclouds/cim/ResourceAllocationSettingData.java"/>
+<file line="194" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/compute/src/main/java/org/jclouds/cim/VirtualSystemSettingData.java"/>
+<codefragment>
+<![CDATA[
+               .connections(in.getConnections()).hostResources(in.getHostResources());
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder fromManagedElement(ManagedElement in) {
+         return Builder.class.cast(super.fromManagedElement(in));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder caption(String caption) {
+         return Builder.class.cast(super.caption(caption));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder description(String description) {
+         return Builder.class.cast(super.description(description));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder elementName(String elementName) {
+         return Builder.class.cast(super.elementName(elementName));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder instanceID(String instanceID) {
+         return Builder.class.cast(super.instanceID(instanceID));
+      }
+
+   }
+
+   /**
+    * The type of resource this allocation setting represents.
+    */
+   public static enum ResourceType {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
