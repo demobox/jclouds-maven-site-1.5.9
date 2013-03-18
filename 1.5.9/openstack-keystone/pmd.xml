@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T19:08:39.131">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/openstack-keystone/src/main/java/org/jclouds/openstack/keystone/v2_0/config/KeystoneAuthenticationModule.java">
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.keystone.v2_0.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Throwables.propagate'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/openstack-keystone/src/main/java/org/jclouds/openstack/keystone/v2_0/suppliers/LocationIdToURIFromAccessForTypeAndVersion.java">
+<violation beginline="19" endline="209" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.keystone.v2_0.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
