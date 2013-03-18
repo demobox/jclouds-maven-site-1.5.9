@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="23" tokens="191">
+<file line="84" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/core/src/main/java/org/jclouds/predicates/RetryableNumTimesPredicate.java"/>
+<file line="89" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/core/src/main/java/org/jclouds/predicates/RetryablePredicate.java"/>
+<codefragment>
+<![CDATA[
+      } catch (InterruptedException e) {
+         logger.warn(e, "predicate %s on %s interrupted, returning false", input, predicate);
+         Thread.currentThread().interrupt();
+      } catch (RuntimeException e) {
+         if (getFirstThrowableOfType(e, ExecutionException.class) != null) {
+            logger.warn(e, "predicate %s on %s errored [%s], returning false", input, predicate, e.getMessage());
+            return false;
+         } else if (getFirstThrowableOfType(e, IllegalStateException.class) != null) {
+            logger.warn(e, "predicate %s on %s illegal state [%s], returning false", input, predicate, e.getMessage());
+            return false;
+         } else if (getFirstThrowableOfType(e, CancellationException.class) != null) {
+            logger.warn(e, "predicate %s on %s cancelled [%s], returning false", input, predicate, e.getMessage());
+            return false;
+         } else if (getFirstThrowableOfType(e, TimeoutException.class) != null) {
+            logger.warn(e, "predicate %s on %s timed out [%s], returning false", input, predicate, e.getMessage());
+            return false;
+         } else
+            throw e;
+      }
+      return false;
+   }
+
+   protected long nextMaxInterval(long attempt) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="12" tokens="114">
+<file line="53" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/core/src/main/java/org/jclouds/location/suppliers/all/RegionToProvider.java"/>
+<file line="51" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/core/src/main/java/org/jclouds/location/suppliers/all/RegionToProviderOrJustProvider.java"/>
+<codefragment>
+<![CDATA[
+   public RegionToProvider(JustProvider justProvider, @Region Supplier<Set<String>> regionsSupplier,
+            @Iso3166 Supplier<Map<String, Supplier<Set<String>>>> isoCodesByIdSupplier) {
+      this.justProvider = checkNotNull(justProvider, "justProvider");
+      this.regionsSupplier = checkNotNull(regionsSupplier, "regionsSupplier");
+      this.isoCodesByIdSupplier = checkNotNull(isoCodesByIdSupplier, "isoCodesByIdSupplier");
+   }
+
+   @Override
+   public Set<? extends Location> get() {
+      Builder<Location> locations = ImmutableSet.builder();
+      Location provider = Iterables.getOnlyElement(justProvider.get());
+      Set<String> regions = regionsSupplier.get();
+]]>
+</codefragment>
+</duplication>
+<duplication lines="15" tokens="114">
+<file line="85" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/core/src/main/java/org/jclouds/util/Throwables2.java"/>
+<file line="101" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/core/src/main/java/org/jclouds/util/Throwables2.java"/>
+<codefragment>
+<![CDATA[
+   public static <T extends Throwable> T getFirstThrowableOfType(ProvisionException e, Class<T> clazz) {
+      for (Message message : e.getErrorMessages()) {
+         if (message.getCause() != null) {
+            T cause = getFirstThrowableOfType(message.getCause(), clazz);
+            if (cause instanceof ProvisionException)
+               return getFirstThrowableOfType(ProvisionException.class.cast(cause), clazz);
+            else if (cause instanceof TransformParallelException)
+               return getFirstThrowableOfType(TransformParallelException.class.cast(cause), clazz);
+            else if (cause instanceof CreationException)
+               return getFirstThrowableOfType(CreationException.class.cast(cause), clazz);
+            return cause;
+         }
+      }
+      return null;
+   }
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
