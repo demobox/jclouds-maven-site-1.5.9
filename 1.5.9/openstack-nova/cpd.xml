@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="23" tokens="155">
+<file line="252" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/options/CreateServerOptions.java"/>
+<file line="113" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/options/CreateVolumeOptions.java"/>
+<codefragment>
+<![CDATA[
+   public CreateServerOptions metadata(Map<String, String> metadata) {
+      checkNotNull(metadata, "metadata");
+      checkArgument(metadata.size() <= 5,
+            "you cannot have more then 5 metadata values.  You specified: " + metadata.size());
+      for (Entry<String, String> entry : metadata.entrySet()) {
+         checkArgument(
+               entry.getKey().getBytes().length < 255,
+               String.format("maximum length of metadata key is 255 bytes.  Key specified %s is %d bytes",
+                     entry.getKey(), entry.getKey().getBytes().length));
+         checkArgument(entry.getKey().getBytes().length < 255, String.format(
+               "maximum length of metadata value is 255 bytes.  Value specified for %s (%s) is %d bytes",
+               entry.getKey(), entry.getValue(), entry.getValue().getBytes().length));
+      }
+      this.metadata = ImmutableMap.copyOf(metadata);
+      return this;
+   }
+
+   /**
+    * Custom user-data can be also be supplied at launch time.
+    * It is retrievable by the instance and is often used for launch-time configuration
+    * by instance scripts.
+    */
+   public CreateServerOptions userData(byte[] userData) {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

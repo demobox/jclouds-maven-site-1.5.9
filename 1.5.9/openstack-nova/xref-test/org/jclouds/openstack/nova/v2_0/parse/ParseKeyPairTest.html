@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>ParseKeyPairTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../../testapidocs/org/jclouds/openstack/nova/v2_0/parse/ParseKeyPairTest.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_javadoccomment"> * Licensed to jclouds, Inc. (jclouds) under one or more</em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_javadoccomment"> * contributor license agreements.  See the NOTICE file</em>
+<a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_javadoccomment"> * distributed with this work for additional information</em>
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_javadoccomment"> * regarding copyright ownership.  jclouds licenses this file</em>
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_javadoccomment"> * to you under the Apache License, Version 2.0 (the</em>
+<a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_javadoccomment"> * "License"); you may not use this file except in compliance</em>
+<a class="jxr_linenumber" name="8" href="#8">8</a>   <em class="jxr_javadoccomment"> * with the License.  You may obtain a copy of the License at</em>
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <em class="jxr_javadoccomment"> *   <a href="http://www.apache.org/licenses/LICENSE-2.0" target="alexandria_uri">http://www.apache.org/licenses/LICENSE-2.0</a></em>
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <em class="jxr_javadoccomment"> * Unless required by applicable law or agreed to in writing,</em>
+<a class="jxr_linenumber" name="13" href="#13">13</a>  <em class="jxr_javadoccomment"> * software distributed under the License is distributed on an</em>
+<a class="jxr_linenumber" name="14" href="#14">14</a>  <em class="jxr_javadoccomment"> * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY</em>
+<a class="jxr_linenumber" name="15" href="#15">15</a>  <em class="jxr_javadoccomment"> * KIND, either express or implied.  See the License for the</em>
+<a class="jxr_linenumber" name="16" href="#16">16</a>  <em class="jxr_javadoccomment"> * specific language governing permissions and limitations</em>
+<a class="jxr_linenumber" name="17" href="#17">17</a>  <em class="jxr_javadoccomment"> * under the License.</em>
+<a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="19" href="#19">19</a>  <strong class="jxr_keyword">package</strong> org.jclouds.openstack.nova.v2_0.parse;
+<a class="jxr_linenumber" name="20" href="#20">20</a>  
+<a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> javax.ws.rs.Consumes;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  <strong class="jxr_keyword">import</strong> javax.ws.rs.core.MediaType;
+<a class="jxr_linenumber" name="23" href="#23">23</a>  
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> org.jclouds.json.BaseItemParserTest;
+<a class="jxr_linenumber" name="25" href="#25">25</a>  <strong class="jxr_keyword">import</strong> org.jclouds.json.config.GsonModule;
+<a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> org.jclouds.openstack.nova.v2_0.config.NovaParserModule;
+<a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> org.jclouds.openstack.nova.v2_0.domain.KeyPair;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> org.jclouds.<strong class="jxr_keyword">rest</strong>.annotations.SelectJson;
+<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> org.testng.annotations.Test;
+<a class="jxr_linenumber" name="30" href="#30">30</a>  
+<a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">import</strong> com.google.inject.Guice;
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <strong class="jxr_keyword">import</strong> com.google.inject.Injector;
+<a class="jxr_linenumber" name="33" href="#33">33</a>  
+<a class="jxr_linenumber" name="34" href="#34">34</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="36" href="#36">36</a>  <em class="jxr_javadoccomment"> * @author Michael Arnold</em>
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="38" href="#38">38</a>  @Test(groups = <span class="jxr_string">"unit"</span>, testName = <span class="jxr_string">"ParseKeyPairTest"</span>)
+<a class="jxr_linenumber" name="39" href="#39">39</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../../org/jclouds/openstack/nova/v2_0/parse/ParseKeyPairTest.html">ParseKeyPairTest</a> <strong class="jxr_keyword">extends</strong> BaseItemParserTest&lt;KeyPair&gt; {
+<a class="jxr_linenumber" name="40" href="#40">40</a>  
+<a class="jxr_linenumber" name="41" href="#41">41</a>     @Override
+<a class="jxr_linenumber" name="42" href="#42">42</a>     <strong class="jxr_keyword">public</strong> String resource() {
+<a class="jxr_linenumber" name="43" href="#43">43</a>        <strong class="jxr_keyword">return</strong> <span class="jxr_string">"/keypair_created.json"</span>;
+<a class="jxr_linenumber" name="44" href="#44">44</a>     }
+<a class="jxr_linenumber" name="45" href="#45">45</a>  
+<a class="jxr_linenumber" name="46" href="#46">46</a>     @Override
+<a class="jxr_linenumber" name="47" href="#47">47</a>     @SelectJson(<span class="jxr_string">"keypair"</span>)
+<a class="jxr_linenumber" name="48" href="#48">48</a>     @Consumes(MediaType.APPLICATION_JSON)
+<a class="jxr_linenumber" name="49" href="#49">49</a>     <strong class="jxr_keyword">public</strong> KeyPair expected() {
+<a class="jxr_linenumber" name="50" href="#50">50</a>        <strong class="jxr_keyword">return</strong> KeyPair
+<a class="jxr_linenumber" name="51" href="#51">51</a>              .builder()
+<a class="jxr_linenumber" name="52" href="#52">52</a>              .publicKey(
+<a class="jxr_linenumber" name="53" href="#53">53</a>                    <span class="jxr_string">"ssh-rsa AAAXB3NzaC1yc2EAAAADAQABAAAAgQDFNyGjgs6c9akgmZ2ou/fJf7Pdrc23hC95/gM/33OrG4GZABACE4DTioa/PGN+7rHv9YUavUCtXrWayhGniKq/wCuI5fo5TO4AmDNv7/sCGHIHFumADSIoLx0vFhGJIetXEWxL9r0lfFC7//6yZM2W3KcGjbMtlPXqBT9K9PzdyQ== nova@nv-aw2az1-api0001\n"</span>)
+<a class="jxr_linenumber" name="54" href="#54">54</a>              .privateKey(
+<a class="jxr_linenumber" name="55" href="#55">55</a>                    <span class="jxr_string">"-----BEGIN RSA PRIVATE KEY-----\nMIICXQIAAAKBgQDFNyGjgs6c9akgmZ2ou/fJf7Pdrc23hC95/gM/33OrG4GZABAC\nE4DTioa/PGN+7rHv9YUavUCtXrWayhGniKq/wCuI5fo5TO4AmDNv7/sCGHIHFumA\nDSIoLx0vFhGJIetXEWxL9r0lfFC7//6yZM2W3KcGjbMtlPXqBT9K9PzdyQIDAQAB\nAoGAW8Ww+KbpQK8smcgCTr/RqcmsSI8VeL2hXjJvDq0L5WbyYuFdkanDvCztUVZn\nsmyfDtwAqZXB4Ct/dN1tY7m8QpdyRaKRW4Q+hghGCAQpsG7rYDdvwdEyvMaW5RA4\ntucQyajMNyQ/tozU3wMx/v8A7RvGcE9tqoG0WK1C3kBu95UCQQDrOd+joYDkvccz\nFIVu5gNPMXEh3fGGzDxk225UlvESquYLzfz4TfmuUjH4Z1BL3wRiwfJsrrjFkm33\njIidDE8PAkEA1qHjxuaIS1yz/rfzErmcOVNlbFHMP4ihjGTTvh1ZctXlNeLwzENQ\nEDaQV3IpUY1KQR6rxcWb5AXgfF9D9PYFpwJBANucAqGAbRgh3lJgPFtXP4u2O0tF\nLPOOxmvbOdybt6KYD4LB5AXmts77SlACFMNhCXUyYaT6UuOSXDyb5gfJsB0CQQC3\nFaGXKU9Z+doQjhlq/6mjvN/nZl80Uvh7Kgb1RVPoAU1kihGeLE0/h0vZTCiyyDNv\nGRqtucMg32J+tUTi0HpBAkAwHiCZMHMeJWHUwIwlRQY/dnR86FWobRl98ViF2rCL\nDHkDVOeIser3Q6zSqU5/m99lX6an5g8pAh/R5LqnOQZC\n-----END RSA PRIVATE KEY-----\n"</span>)
+<a class="jxr_linenumber" name="56" href="#56">56</a>              .name(<span class="jxr_string">"testkeypair"</span>).userId(<span class="jxr_string">"65649731189278"</span>)
+<a class="jxr_linenumber" name="57" href="#57">57</a>              .fingerprint(<span class="jxr_string">"d2:1f:c9:2b:d8:90:77:5f:15:64:27:e3:9f:77:1d:e4"</span>).build();
+<a class="jxr_linenumber" name="58" href="#58">58</a>     }
+<a class="jxr_linenumber" name="59" href="#59">59</a>  
+<a class="jxr_linenumber" name="60" href="#60">60</a>     <strong class="jxr_keyword">protected</strong> Injector injector() {
+<a class="jxr_linenumber" name="61" href="#61">61</a>        <strong class="jxr_keyword">return</strong> Guice.createInjector(<strong class="jxr_keyword">new</strong> NovaParserModule(), <strong class="jxr_keyword">new</strong> GsonModule());
+<a class="jxr_linenumber" name="62" href="#62">62</a>     }
+<a class="jxr_linenumber" name="63" href="#63">63</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+
