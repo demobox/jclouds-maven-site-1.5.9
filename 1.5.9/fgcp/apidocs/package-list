@@ -1,0 +1,17 @@
+org.jclouds.fujitsu.fgcp
+org.jclouds.fujitsu.fgcp.binders
+org.jclouds.fujitsu.fgcp.compute
+org.jclouds.fujitsu.fgcp.compute.config
+org.jclouds.fujitsu.fgcp.compute.functions
+org.jclouds.fujitsu.fgcp.compute.options
+org.jclouds.fujitsu.fgcp.compute.predicates
+org.jclouds.fujitsu.fgcp.compute.strategy
+org.jclouds.fujitsu.fgcp.domain
+org.jclouds.fujitsu.fgcp.filters
+org.jclouds.fujitsu.fgcp.handlers
+org.jclouds.fujitsu.fgcp.location
+org.jclouds.fujitsu.fgcp.reference
+org.jclouds.fujitsu.fgcp.services
+org.jclouds.fujitsu.fgcp.suppliers
+org.jclouds.fujitsu.fgcp.xml
+org.jclouds.fujitsu.fgcp.xml.internal
