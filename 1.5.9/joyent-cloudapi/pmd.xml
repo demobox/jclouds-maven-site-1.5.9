@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T22:19:39.043">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/joyent-cloudapi/src/main/java/org/jclouds/joyent/cloudapi/v6_5/compute/JoyentCloudComputeServiceAdapter.java">
+<violation beginline="19" endline="216" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.joyent.cloudapi.v6_5.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/joyent-cloudapi/src/main/java/org/jclouds/joyent/cloudapi/v6_5/compute/functions/MachineInDatacenterToNodeMetadata.java">
+<violation beginline="19" endline="150" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.joyent.cloudapi.v6_5.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/joyent-cloudapi/src/main/java/org/jclouds/joyent/cloudapi/v6_5/compute/predicates/AllNodesInGroupTerminated.java">
+<violation beginline="19" endline="52" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.joyent.cloudapi.v6_5.compute.predicates" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/joyent-cloudapi/src/main/java/org/jclouds/joyent/cloudapi/v6_5/domain/Machine.java">
+<violation beginline="249" endline="262" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.joyent.cloudapi.v6_5.domain" class="Machine" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'updated'.
+</violation>
+</file>
+</pmd>

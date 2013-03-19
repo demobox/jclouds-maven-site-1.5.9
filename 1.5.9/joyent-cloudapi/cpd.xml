@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="21" tokens="118">
+<file line="285" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/joyent-cloudapi/src/main/java/org/jclouds/joyent/cloudapi/v6_5/domain/Dataset.java"/>
+<file line="359" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/joyent-cloudapi/src/main/java/org/jclouds/joyent/cloudapi/v6_5/domain/Machine.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   @VisibleForTesting
+   static final Function<JsonBall, String> unquoteString = new Function<JsonBall, String>() {
+
+      @Override
+      public String apply(JsonBall input) {
+         String value = input.toString();
+         if (value.length() >= 2 && value.charAt(0) == '"' && value.charAt(input.length() - 1) == '"')
+            return value.substring(1, input.length() - 1);
+         return value;
+      }
+
+   };
+
+   @Override
+   public boolean equals(Object object) {
+      if (this == object) {
+         return true;
+      }
+      if (object instanceof Dataset) {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
