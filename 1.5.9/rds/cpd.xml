@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="26" tokens="105">
+<file line="36" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/rds/src/main/java/org/jclouds/rds/domain/Authorization.java"/>
+<file line="78" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/rds/src/main/java/org/jclouds/rds/domain/Instance.java"/>
+<codefragment>
+<![CDATA[
+      AUTHORIZING, AUTHORIZED, REVOKING, UNRECOGNIZED;
+
+      public String value() {
+         return name().toLowerCase();
+      }
+
+      @Override
+      public String toString() {
+         return value();
+      }
+
+      public static Status fromValue(String status) {
+         try {
+            return valueOf(CaseFormat.LOWER_HYPHEN.to(CaseFormat.UPPER_UNDERSCORE, checkNotNull(status, "status")));
+         } catch (IllegalArgumentException e) {
+            return UNRECOGNIZED;
+         }
+      }
+   }
+
+   public static Builder<?> builder() {
+      return new ConcreteBuilder();
+   }
+
+   public Builder<?> toBuilder() {
+      return new ConcreteBuilder().fromAuthorization(this);
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

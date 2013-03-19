@@ -1,0 +1,9 @@
+org.jclouds.rds
+org.jclouds.rds.binders
+org.jclouds.rds.config
+org.jclouds.rds.domain
+org.jclouds.rds.domain.internal
+org.jclouds.rds.features
+org.jclouds.rds.functions
+org.jclouds.rds.options
+org.jclouds.rds.xml

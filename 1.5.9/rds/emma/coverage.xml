@@ -1,0 +1,2264 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Mar 19 16:22:36 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="8"/>
+    <classes value="59"/>
+    <methods value="317"/>
+    <srcfiles value="28"/>
+    <srclines value="816"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="86%  (51/59)"/>
+      <coverage type="method, %" value="66%  (208/317)"/>
+      <coverage type="block, %" value="72%  (3206/4452)"/>
+      <coverage type="line, %" value="75%  (614.5/816)"/>
+
+      <package name="org.jclouds.rds.domain.internal">
+        <coverage type="class, %" value="50%  (2/4)"/>
+        <coverage type="method, %" value="48%  (11/23)"/>
+        <coverage type="block, %" value="30%  (75/250)"/>
+        <coverage type="line, %" value="54%  (22/41)"/>
+
+        <srcfile name="BaseInstance.java">
+          <coverage type="class, %" value="50%  (2/4)"/>
+          <coverage type="method, %" value="48%  (11/23)"/>
+          <coverage type="block, %" value="30%  (75/250)"/>
+          <coverage type="line, %" value="54%  (22/41)"/>
+
+          <class name="BaseInstance">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (6/12)"/>
+            <coverage type="block, %" value="26%  (45/172)"/>
+            <coverage type="line, %" value="48%  (12/25)"/>
+
+            <method name="builder (): BaseInstance$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/55)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/31)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="string (): Objects$ToStringHelper">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): BaseInstance$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="BaseInstance (Optional, String, String, String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="getAllocatedStorageGB (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getEngine (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getInstanceClass (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMasterUsername (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="BaseInstance$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="BaseInstance$ConcreteBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="BaseInstance$ConcreteBuilder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="BaseInstance$ConcreteBuilder (BaseInstance$1): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="self (): BaseInstance$ConcreteBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="BaseInstance$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="62%  (5/8)"/>
+            <coverage type="block, %" value="43%  (30/70)"/>
+            <coverage type="line, %" value="71%  (10/14)"/>
+
+            <method name="build (): BaseInstance">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromBaseInstance (BaseInstance): BaseInstance$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="name (String): BaseInstance$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="BaseInstance$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="allocatedStorageGB (int): BaseInstance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="engine (String): BaseInstance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="instanceClass (String): BaseInstance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="masterUsername (String): BaseInstance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds.options">
+        <coverage type="class, %" value="100% (6/6)"/>
+        <coverage type="method, %" value="45%  (14/31)"/>
+        <coverage type="block, %" value="40%  (134/332)"/>
+        <coverage type="line, %" value="49%  (35.7/73)"/>
+
+        <srcfile name="ListSecurityGroupsOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="44%  (4/9)"/>
+          <coverage type="block, %" value="35%  (29/84)"/>
+          <coverage type="line, %" value="42%  (8.5/20)"/>
+
+          <class name="ListSecurityGroupsOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="43%  (3/7)"/>
+            <coverage type="block, %" value="31%  (23/75)"/>
+            <coverage type="line, %" value="42%  (8/19)"/>
+
+            <method name="clone (): ListSecurityGroupsOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ListSecurityGroupsOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="afterMarker (Object): ListSecurityGroupsOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="buildFormParameters (): Multimap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="ListSecurityGroupsOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="67%  (6/9)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="ListSecurityGroupsOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="afterMarker (Object): ListSecurityGroupsOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ListSubnetGroupsOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="44%  (4/9)"/>
+          <coverage type="block, %" value="35%  (29/84)"/>
+          <coverage type="line, %" value="42%  (8.5/20)"/>
+
+          <class name="ListSubnetGroupsOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="43%  (3/7)"/>
+            <coverage type="block, %" value="31%  (23/75)"/>
+            <coverage type="line, %" value="42%  (8/19)"/>
+
+            <method name="clone (): ListSubnetGroupsOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ListSubnetGroupsOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="afterMarker (Object): ListSubnetGroupsOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="buildFormParameters (): Multimap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="ListSubnetGroupsOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="67%  (6/9)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="ListSubnetGroupsOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="afterMarker (Object): ListSubnetGroupsOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ListInstancesOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="46%  (6/13)"/>
+          <coverage type="block, %" value="46%  (76/164)"/>
+          <coverage type="line, %" value="57%  (18.7/33)"/>
+
+          <class name="ListInstancesOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="44%  (4/9)"/>
+            <coverage type="block, %" value="45%  (64/143)"/>
+            <coverage type="line, %" value="57%  (17/30)"/>
+
+            <method name="clone (): ListInstancesOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="names (Set): ListInstancesOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ListInstancesOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="afterMarker (Object): ListInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="buildFormParameters (): Multimap">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (46/46)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="name (String): ListInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="ListInstancesOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (2/4)"/>
+            <coverage type="block, %" value="57%  (12/21)"/>
+            <coverage type="line, %" value="50%  (2/4)"/>
+
+            <method name="ListInstancesOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="names (Set): ListInstancesOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="afterMarker (Object): ListInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="name (String): ListInstancesOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds.binders">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="65%  (130/199)"/>
+        <coverage type="line, %" value="71%  (21.3/30)"/>
+
+        <srcfile name="BindInstanceRequestToFormParams.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="65%  (130/199)"/>
+          <coverage type="line, %" value="71%  (21.3/30)"/>
+
+          <class name="BindInstanceRequestToFormParams">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="65%  (130/199)"/>
+            <coverage type="line, %" value="71%  (21.3/30)"/>
+
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (127/196)"/>
+              <coverage type="line, %" value="70%  (20.3/29)"/>
+            </method>
+            <method name="BindInstanceRequestToFormParams (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds.domain">
+        <coverage type="class, %" value="79%  (22/28)"/>
+        <coverage type="method, %" value="60%  (114/191)"/>
+        <coverage type="block, %" value="66%  (1402/2118)"/>
+        <coverage type="line, %" value="63%  (223.9/353)"/>
+
+        <srcfile name="IPRange.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="58%  (7/12)"/>
+          <coverage type="block, %" value="41%  (48/116)"/>
+          <coverage type="line, %" value="45%  (10/22)"/>
+
+          <class name="IPRange">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="43%  (3/7)"/>
+            <coverage type="block, %" value="32%  (28/88)"/>
+            <coverage type="line, %" value="31%  (5/16)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="getCIDRIP (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): IPRange$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="IPRange (String, String, Authorization$Status): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="builder (): IPRange$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="IPRange$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="71%  (20/28)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="fromIPRange (IPRange): IPRange$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="IPRange$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): IPRange">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="cidrIp (String): IPRange$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="self (): IPRange$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="EC2SecurityGroup.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="50%  (8/16)"/>
+          <coverage type="block, %" value="45%  (81/180)"/>
+          <coverage type="line, %" value="48%  (15/31)"/>
+
+          <class name="EC2SecurityGroup">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (3/9)"/>
+            <coverage type="block, %" value="39%  (49/126)"/>
+            <coverage type="line, %" value="35%  (7/20)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/43)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="getId (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getOwnerId (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="EC2SecurityGroup (Optional, String, String, String, Authorization$Status): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="builder (): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="EC2SecurityGroup$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="59%  (32/54)"/>
+            <coverage type="line, %" value="73%  (8/11)"/>
+
+            <method name="fromEC2SecurityGroup (EC2SecurityGroup): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="id (String): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="EC2SecurityGroup$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): EC2SecurityGroup">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="name (String): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ownerId (String): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="self (): EC2SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InstanceRequest.java">
+          <coverage type="class, %" value="75%  (3/4)"/>
+          <coverage type="method, %" value="61%  (20/33)"/>
+          <coverage type="block, %" value="52%  (208/397)"/>
+          <coverage type="line, %" value="65%  (43/66)"/>
+
+          <class name="InstanceRequest">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="87%  (13/15)"/>
+            <coverage type="block, %" value="67%  (112/167)"/>
+            <coverage type="line, %" value="93%  (25/27)"/>
+
+            <method name="string (): Objects$ToStringHelper">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/48)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="InstanceRequest (Optional, String, Optional, Optional, Optional, Optional, boolean, String, Optional, Optional, String, int, int, Optional, Iterable, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (74/74)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="builder (): InstanceRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getBackupRetentionPeriod (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCharacterSet (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getEngineVersion (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getLicenseModel (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMasterPassword (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getOptionGroup (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getParameterGroup (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getPort (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSecurityGroups (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSubnetGroup (): Optional">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="isAutoMinorVersionUpgrade (): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="InstanceRequest$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="InstanceRequest$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="27%  (4/15)"/>
+            <coverage type="block, %" value="40%  (88/222)"/>
+            <coverage type="line, %" value="43%  (16/37)"/>
+
+            <method name="autoMinorVersionUpgrade (boolean): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="backupRetentionPeriod (int): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="characterSet (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="engineVersion (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="fromInstance (InstanceRequest): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/49)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="licenseModel (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="optionGroup (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="parameterGroup (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="port (Integer): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="securityGroup (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="securityGroups (Iterable): InstanceRequest$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="InstanceRequest$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="build (): InstanceRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="masterPassword (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="subnetGroup (String): InstanceRequest$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="InstanceRequest$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="InstanceRequest$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="InstanceRequest$ConcreteBuilder (InstanceRequest$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="self (): InstanceRequest$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Authorization.java">
+          <coverage type="class, %" value="60%  (3/5)"/>
+          <coverage type="method, %" value="41%  (9/22)"/>
+          <coverage type="block, %" value="53%  (97/184)"/>
+          <coverage type="line, %" value="36%  (12/33)"/>
+
+          <class name="Authorization">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="12%  (1/8)"/>
+            <coverage type="block, %" value="20%  (15/76)"/>
+            <coverage type="line, %" value="22%  (4/18)"/>
+
+            <method name="builder (): Authorization$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="getRawStatus (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): Authorization$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): Authorization$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Authorization (String, Authorization$Status): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="Authorization$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="Authorization$ConcreteBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/8)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="Authorization$ConcreteBuilder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Authorization$ConcreteBuilder (Authorization$1): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="self (): Authorization$ConcreteBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="Authorization$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="65%  (15/23)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="fromAuthorization (Authorization): Authorization$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Authorization$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="rawStatus (String): Authorization$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="status (Authorization$Status): Authorization$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="Authorization$Status">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="87%  (67/77)"/>
+            <coverage type="line, %" value="43%  (3/7)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="value (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): Authorization$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (9/12)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="Authorization$Status (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): Authorization$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): Authorization$Status []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Subnet.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="60%  (9/15)"/>
+          <coverage type="block, %" value="60%  (79/132)"/>
+          <coverage type="line, %" value="55%  (16/29)"/>
+
+          <class name="Subnet">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="44%  (4/9)"/>
+            <coverage type="block, %" value="55%  (51/93)"/>
+            <coverage type="line, %" value="40%  (8/20)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="getAvailabilityZone (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): Subnet$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Subnet (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="builder (): Subnet$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Subnet$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="72%  (28/39)"/>
+            <coverage type="line, %" value="89%  (8/9)"/>
+
+            <method name="fromSubnet (Subnet): Subnet$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Subnet$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="availabilityZone (String): Subnet$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): Subnet">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="id (String): Subnet$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="status (String): Subnet$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SecurityGroup.java">
+          <coverage type="class, %" value="75%  (3/4)"/>
+          <coverage type="method, %" value="63%  (17/27)"/>
+          <coverage type="block, %" value="72%  (190/265)"/>
+          <coverage type="line, %" value="71%  (36/51)"/>
+
+          <class name="SecurityGroup$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="SecurityGroup$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="73%  (8/11)"/>
+            <coverage type="block, %" value="63%  (75/119)"/>
+            <coverage type="line, %" value="77%  (17/22)"/>
+
+            <method name="ec2SecurityGroups (Iterable): SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="fromSecurityGroup (SecurityGroup): SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ipRanges (Iterable): SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="SecurityGroup$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="build (): SecurityGroup">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="description (String): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ec2SecurityGroup (EC2SecurityGroup): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ipRange (IPRange): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ownerId (String): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="vpcId (String): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="SecurityGroup">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="46%  (6/13)"/>
+            <coverage type="block, %" value="78%  (107/138)"/>
+            <coverage type="line, %" value="63%  (17/27)"/>
+
+            <method name="getDescription (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getEC2SecurityGroups (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getIPRanges (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getOwnerId (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getVpcId (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): SecurityGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="76%  (19/25)"/>
+              <coverage type="line, %" value="62%  (5/8)"/>
+            </method>
+            <method name="SecurityGroup (String, String, Iterable, Iterable, String, Optional): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="builder (): SecurityGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="string (): Objects$ToStringHelper">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SecurityGroup$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="SecurityGroup$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="SecurityGroup$ConcreteBuilder (SecurityGroup$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="self (): SecurityGroup$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SubnetGroup.java">
+          <coverage type="class, %" value="75%  (3/4)"/>
+          <coverage type="method, %" value="71%  (17/24)"/>
+          <coverage type="block, %" value="80%  (188/236)"/>
+          <coverage type="line, %" value="77%  (33.9/44)"/>
+
+          <class name="SubnetGroup$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="89%  (8/9)"/>
+            <coverage type="block, %" value="79%  (70/89)"/>
+            <coverage type="line, %" value="94%  (16/17)"/>
+
+            <method name="fromSubnetGroup (SubnetGroup): SubnetGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SubnetGroup$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): SubnetGroup">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="description (String): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="status (String): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="subnet (Subnet): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="subnets (Iterable): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="vpcId (String): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="SubnetGroup">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (6/12)"/>
+            <coverage type="block, %" value="79%  (110/139)"/>
+            <coverage type="line, %" value="64%  (15.9/25)"/>
+
+            <method name="getDescription (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSubnets (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getVpcId (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): SubnetGroup$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="80%  (28/35)"/>
+              <coverage type="line, %" value="62%  (4.9/8)"/>
+            </method>
+            <method name="SubnetGroup (String, String, String, Iterable, Optional): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="builder (): SubnetGroup$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="string (): Objects$ToStringHelper">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SubnetGroup$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="SubnetGroup$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="SubnetGroup$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="SubnetGroup$ConcreteBuilder (SubnetGroup$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="self (): SubnetGroup$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Instance.java">
+          <coverage type="class, %" value="80%  (4/5)"/>
+          <coverage type="method, %" value="64%  (27/42)"/>
+          <coverage type="block, %" value="84%  (511/608)"/>
+          <coverage type="line, %" value="75%  (58/77)"/>
+
+          <class name="Instance$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="Instance$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="93%  (14/15)"/>
+            <coverage type="block, %" value="78%  (155/198)"/>
+            <coverage type="line, %" value="97%  (31/32)"/>
+
+            <method name="fromInstance (Instance): Instance$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/43)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="Instance$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="availabilityZone (String): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): Instance">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="createdTime (Date): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endpoint (HostAndPort): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="engineVersion (String): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (String): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="licenseModel (String): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="multiAZ (boolean): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="rawStatus (String): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="securityGroupNameToStatus (Map): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="securityGroupNameToStatus (String, String): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="status (Instance$Status): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="subnetGroup (SubnetGroup): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="Instance">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="29%  (5/17)"/>
+            <coverage type="block, %" value="84%  (231/275)"/>
+            <coverage type="line, %" value="59%  (20/34)"/>
+
+            <method name="getAvailabilityZone (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCreatedTime (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getEndpoint (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getEngineVersion (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLicenseModel (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getRawStatus (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSecurityGroupNameToStatus (): Map">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStatus (): Instance$Status">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSubnetGroup (): Optional">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isMultiAZ (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toBuilder (): Instance$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="84%  (21/25)"/>
+              <coverage type="line, %" value="67%  (4/6)"/>
+            </method>
+            <method name="Instance (String, Optional, String, Optional, String, Instance$Status, Optional, boolean, String, String, String, String, int, Optional, Optional, Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (126/126)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="builder (): Instance$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (70/70)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Instance$Status">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="92%  (117/127)"/>
+            <coverage type="line, %" value="56%  (5/9)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="value (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): Instance$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (9/12)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (94/94)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="Instance$Status (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): Instance$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): Instance$Status []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Instance$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (8/8)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="Instance$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="Instance$ConcreteBuilder (Instance$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="self (): Instance$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds.functions">
+        <coverage type="class, %" value="100% (7/7)"/>
+        <coverage type="method, %" value="82%  (14/17)"/>
+        <coverage type="block, %" value="81%  (150/186)"/>
+        <coverage type="line, %" value="90%  (26/29)"/>
+
+        <srcfile name="InstancesToPagedIterable.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="76%  (39/51)"/>
+          <coverage type="line, %" value="86%  (6/7)"/>
+
+          <class name="InstancesToPagedIterable$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="60%  (18/30)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="InstancesToPagedIterable$1 (InstancesToPagedIterable, InstanceApi, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Object): IterableWithMarker">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="InstancesToPagedIterable">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="InstancesToPagedIterable (RDSApi): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="markerToNextForCallingArg0 (String): Function">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SecurityGroupsToPagedIterable.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="76%  (39/51)"/>
+          <coverage type="line, %" value="86%  (6/7)"/>
+
+          <class name="SecurityGroupsToPagedIterable$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="60%  (18/30)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SecurityGroupsToPagedIterable$1 (SecurityGroupsToPagedIterable, SecurityGroupApi, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Object): IterableWithMarker">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SecurityGroupsToPagedIterable">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="SecurityGroupsToPagedIterable (RDSApi): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="markerToNextForCallingArg0 (String): Function">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SubnetGroupsToPagedIterable.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="76%  (39/51)"/>
+          <coverage type="line, %" value="86%  (6/7)"/>
+
+          <class name="SubnetGroupsToPagedIterable$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="60%  (18/30)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SubnetGroupsToPagedIterable$1 (SubnetGroupsToPagedIterable, SubnetGroupApi, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Object): IterableWithMarker">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SubnetGroupsToPagedIterable">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="SubnetGroupsToPagedIterable (RDSApi): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="markerToNextForCallingArg0 (String): Function">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ReturnNullOnStateDeletingNotFoundOr404.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (33/33)"/>
+          <coverage type="line, %" value="100% (8/8)"/>
+
+          <class name="ReturnNullOnStateDeletingNotFoundOr404">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (33/33)"/>
+            <coverage type="line, %" value="100% (8/8)"/>
+
+            <method name="ReturnNullOnStateDeletingNotFoundOr404 (ReturnNullOnNotFoundOr404): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="apply (Exception): Object">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (27/27)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds.xml">
+        <coverage type="class, %" value="100% (9/9)"/>
+        <coverage type="method, %" value="100% (42/42)"/>
+        <coverage type="block, %" value="96%  (1212/1264)"/>
+        <coverage type="line, %" value="98%  (266.6/271)"/>
+
+        <srcfile name="EC2SecurityGroupHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="85%  (81/95)"/>
+          <coverage type="line, %" value="93%  (17.6/19)"/>
+
+          <class name="EC2SecurityGroupHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="85%  (81/95)"/>
+            <coverage type="line, %" value="93%  (17.6/19)"/>
+
+            <method name="getResult (): EC2SecurityGroup">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (53/61)"/>
+              <coverage type="line, %" value="92%  (11/12)"/>
+            </method>
+            <method name="EC2SecurityGroupHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="IPRangeHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="92%  (65/71)"/>
+          <coverage type="line, %" value="97%  (14.6/15)"/>
+
+          <class name="IPRangeHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="92%  (65/71)"/>
+            <coverage type="line, %" value="97%  (14.6/15)"/>
+
+            <method name="getResult (): IPRange">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="IPRangeHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SubnetHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="92%  (69/75)"/>
+          <coverage type="line, %" value="97%  (14.6/15)"/>
+
+          <class name="SubnetHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="92%  (69/75)"/>
+            <coverage type="line, %" value="97%  (14.6/15)"/>
+
+            <method name="getResult (): Subnet">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="SubnetHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SubnetGroupHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="96%  (142/148)"/>
+          <coverage type="line, %" value="99%  (31.6/32)"/>
+
+          <class name="SubnetGroupHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="96%  (142/148)"/>
+            <coverage type="line, %" value="99%  (31.6/32)"/>
+
+            <method name="getResult (): SubnetGroup">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="SubnetGroupHandler (SubnetHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (83/83)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="InstanceHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="96%  (346/360)"/>
+          <coverage type="line, %" value="98%  (68.6/70)"/>
+
+          <class name="InstanceHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="96%  (346/360)"/>
+            <coverage type="line, %" value="98%  (68.6/70)"/>
+
+            <method name="getResult (): Instance">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="97%  (281/289)"/>
+              <coverage type="line, %" value="98%  (51/52)"/>
+            </method>
+            <method name="InstanceHandler (DateService, SubnetGroupHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SecurityGroupHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="97%  (204/210)"/>
+          <coverage type="line, %" value="99%  (44.6/45)"/>
+
+          <class name="SecurityGroupHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="97%  (204/210)"/>
+            <coverage type="line, %" value="99%  (44.6/45)"/>
+
+            <method name="getResult (): SecurityGroup">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="SecurityGroupHandler (EC2SecurityGroupHandler, IPRangeHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (113/113)"/>
+              <coverage type="line, %" value="100% (22/22)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DescribeDBInstancesResultHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (101/101)"/>
+          <coverage type="line, %" value="100% (25/25)"/>
+
+          <class name="DescribeDBInstancesResultHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (101/101)"/>
+            <coverage type="line, %" value="100% (25/25)"/>
+
+            <method name="DescribeDBInstancesResultHandler (InstanceHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (45/45)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="getResult (): IterableWithMarker">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DescribeDBSecurityGroupsResultHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (102/102)"/>
+          <coverage type="line, %" value="100% (25/25)"/>
+
+          <class name="DescribeDBSecurityGroupsResultHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (102/102)"/>
+            <coverage type="line, %" value="100% (25/25)"/>
+
+            <method name="DescribeDBSecurityGroupsResultHandler (SecurityGroupHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (45/45)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="getResult (): IterableWithMarker">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DescribeDBSubnetGroupsResultHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (102/102)"/>
+          <coverage type="line, %" value="100% (25/25)"/>
+
+          <class name="DescribeDBSubnetGroupsResultHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (102/102)"/>
+            <coverage type="line, %" value="100% (25/25)"/>
+
+            <method name="DescribeDBSubnetGroupsResultHandler (SubnetGroupHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (45/45)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="getResult (): IterableWithMarker">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="100% (9/9)"/>
+        <coverage type="block, %" value="100% (82/82)"/>
+        <coverage type="line, %" value="100% (16/16)"/>
+
+        <srcfile name="RDSApiMetadata.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="100% (9/9)"/>
+          <coverage type="block, %" value="100% (82/82)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="RDSApiMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (41/41)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="RDSApiMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="RDSApiMetadata (RDSApiMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toBuilder (): RDSApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="RDSApiMetadata$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="RDSApiMetadata$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="RDSApiMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (38/38)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="RDSApiMetadata$Builder (Class, Class): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (27/27)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): RDSApiMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromApiMetadata (ApiMetadata): RDSApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rds.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (21/21)"/>
+        <coverage type="line, %" value="100% (3/3)"/>
+
+        <srcfile name="RDSRestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (21/21)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="RDSRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="RDSRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
