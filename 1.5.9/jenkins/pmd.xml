@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T22:07:04.305">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/jenkins/src/main/java/org/jclouds/jenkins/v1/domain/JobDetails.java">
+<violation beginline="58" endline="60" begincolumn="11" endcolumn="4" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.jenkins.v1.domain" class="JobDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+</pmd>

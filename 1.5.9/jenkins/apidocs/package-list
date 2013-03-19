@@ -1,0 +1,8 @@
+org.jclouds.jenkins.v1
+org.jclouds.jenkins.v1.binders
+org.jclouds.jenkins.v1.config
+org.jclouds.jenkins.v1.domain
+org.jclouds.jenkins.v1.features
+org.jclouds.jenkins.v1.filters
+org.jclouds.jenkins.v1.functions
+org.jclouds.jenkins.v1.handlers
