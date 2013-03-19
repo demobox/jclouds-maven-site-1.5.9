@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T19:44:37.954">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/providers/hpcloud-objectstorage/src/main/java/org/jclouds/hpcloud/objectstorage/blobstore/HPCloudObjectStorageBlobRequestSigner.java">
+<violation beginline="19" endline="169" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.hpcloud.objectstorage.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="49" endline="49" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.hpcloud.objectstorage.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.openstack.swift.TemporaryUrlKey'
+</violation>
+<violation beginline="52" endline="52" begincolumn="1" endcolumn="54" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.hpcloud.objectstorage.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.internal.GeneratedHttpRequest'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/providers/hpcloud-objectstorage/src/main/java/org/jclouds/hpcloud/objectstorage/blobstore/functions/PublicUriForObjectInfo.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="35" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.hpcloud.objectstorage.blobstore.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.net.URISyntaxException'
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,11 @@
+org.jclouds.hpcloud.objectstorage
+org.jclouds.hpcloud.objectstorage.blobstore
+org.jclouds.hpcloud.objectstorage.blobstore.config
+org.jclouds.hpcloud.objectstorage.blobstore.functions
+org.jclouds.hpcloud.objectstorage.config
+org.jclouds.hpcloud.objectstorage.domain
+org.jclouds.hpcloud.objectstorage.extensions
+org.jclouds.hpcloud.objectstorage.functions
+org.jclouds.hpcloud.objectstorage.options
+org.jclouds.hpcloud.objectstorage.reference
+org.jclouds.hpcloud.services
