@@ -1,0 +1,7 @@
+org.jclouds.openstack.swift.v1
+org.jclouds.openstack.swift.v1.config
+org.jclouds.openstack.swift.v1.domain
+org.jclouds.openstack.swift.v1.features
+org.jclouds.openstack.swift.v1.functions
+org.jclouds.openstack.swift.v1.handlers
+org.jclouds.openstack.swift.v1.options
