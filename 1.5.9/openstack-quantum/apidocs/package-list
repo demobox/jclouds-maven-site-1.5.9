@@ -1,0 +1,5 @@
+org.jclouds.openstack.quantum.v1_0
+org.jclouds.openstack.quantum.v1_0.config
+org.jclouds.openstack.quantum.v1_0.domain
+org.jclouds.openstack.quantum.v1_0.features
+org.jclouds.openstack.quantum.v1_0.handlers
