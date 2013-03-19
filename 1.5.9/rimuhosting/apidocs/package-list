@@ -1,0 +1,13 @@
+org.jclouds.rimuhosting.miro
+org.jclouds.rimuhosting.miro.binder
+org.jclouds.rimuhosting.miro.compute.config
+org.jclouds.rimuhosting.miro.compute.functions
+org.jclouds.rimuhosting.miro.compute.strategy
+org.jclouds.rimuhosting.miro.config
+org.jclouds.rimuhosting.miro.data
+org.jclouds.rimuhosting.miro.domain
+org.jclouds.rimuhosting.miro.domain.internal
+org.jclouds.rimuhosting.miro.filters
+org.jclouds.rimuhosting.miro.functions
+org.jclouds.rimuhosting.miro.location
+org.jclouds.rimuhosting.miro.predicates
