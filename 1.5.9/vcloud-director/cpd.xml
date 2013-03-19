@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="49" tokens="154">
+<file line="133" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/dmtf/RasdItem.java"/>
+<file line="138" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/section/VirtualHardwareSection.java"/>
+<codefragment>
+<![CDATA[
+   protected RasdItem() {
+      // for JAXB
+   }
+
+   /**
+    * Contains the URI to the entity.
+    *
+    * @see ResourceType#getHref()
+    */
+   public String getType() {
+      return type;
+   }
+
+   /**
+    * Contains the type of the the entity.
+    *
+    * @see ResourceType#getType()
+    */
+   public URI getHref() {
+      return href;
+   }
+
+   /**
+    * Set of optional links to an entity or operation associated with this object.
+    *
+    * @see ResourceType#getLinks()
+    */
+   public Set<Link> getLinks() {
+      return links != null ? ImmutableSet.copyOf(links) : Sets.<Link>newLinkedHashSet();
+   }
+
+   @Override
+   public ToStringHelper string() {
+      return super.string()
+            .add("type", type)
+            .add("href", href)
+            .add("links", links);
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hashCode(super.hashCode(), type, href, links);
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (this == obj) return true;
+      if (obj == null) return false;
+      if (getClass() != obj.getClass()) return false;
+]]>
+</codefragment>
+</duplication>
+<duplication lines="21" tokens="148">
+<file line="138" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/AbstractVAppType.java"/>
+<file line="152" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/VAppTemplate.java"/>
+<codefragment>
+<![CDATA[
+   @XmlElementRefs({
+      @XmlElementRef(type = VirtualHardwareSection.class),
+      @XmlElementRef(type = LeaseSettingsSection.class),
+//      @XmlElementRef(type = EulaSection.class),
+      @XmlElementRef(type = RuntimeInfoSection.class),
+//      @XmlElementRef(type = AnnotationSection.class),
+      @XmlElementRef(type = DeploymentOptionSection.class),
+      @XmlElementRef(type = StartupSection.class),
+//      @XmlElementRef(type = ResourceAllocationSection.class),
+      @XmlElementRef(type = NetworkConnectionSection.class),
+      @XmlElementRef(type = CustomizationSection.class),
+      @XmlElementRef(type = ProductSection.class),
+      @XmlElementRef(type = GuestCustomizationSection.class),
+      @XmlElementRef(type = OperatingSystemSection.class),
+      @XmlElementRef(type = NetworkConfigSection.class),
+      @XmlElementRef(type = NetworkSection.class),
+//      @XmlElementRef(type = InstallSection.class),
+      @XmlElementRef(type = DiskSection.class)
+   })
+   private Set<SectionType> sections = Sets.newLinkedHashSet();
+   @XmlAttribute
+]]>
+</codefragment>
+</duplication>
+<duplication lines="25" tokens="148">
+<file line="157" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/params/CaptureVAppParams.java"/>
+<file line="108" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/params/InstantiationParams.java"/>
+<codefragment>
+<![CDATA[
+   @XmlElementRefs({
+      @XmlElementRef(type = VirtualHardwareSection.class),
+      @XmlElementRef(type = LeaseSettingsSection.class),
+//      @XmlElementRef(type = EulaSection.class),
+      @XmlElementRef(type = RuntimeInfoSection.class),
+//      @XmlElementRef(type = AnnotationSection.class),
+      @XmlElementRef(type = DeploymentOptionSection.class),
+      @XmlElementRef(type = StartupSection.class),
+//      @XmlElementRef(type = ResourceAllocationSection.class),
+      @XmlElementRef(type = NetworkConnectionSection.class),
+      @XmlElementRef(type = CustomizationSection.class),
+      @XmlElementRef(type = ProductSection.class),
+      @XmlElementRef(type = GuestCustomizationSection.class),
+      @XmlElementRef(type = OperatingSystemSection.class),
+      @XmlElementRef(type = NetworkConfigSection.class),
+      @XmlElementRef(type = NetworkSection.class),
+//      @XmlElementRef(type = InstallSection.class),
+      @XmlElementRef(type = DiskSection.class)
+   })
+   protected Set<SectionType> sections = Sets.newLinkedHashSet();
+
+   /**
+    * Gets the value of the source property.
+    */
+   public Reference getSource() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="34" tokens="144">
+<file line="187" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/ProductSectionList.java"/>
+<file line="175" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/RasdItemsList.java"/>
+<codefragment>
+<![CDATA[
+   public Iterator<ProductSection> iterator() {
+      return delegate().iterator();
+   }
+
+   @Override
+   public boolean remove(Object arg0) {
+      return delegate().remove(arg0);
+   }
+
+   @Override
+   public boolean removeAll(Collection<?> arg0) {
+      return delegate().removeAll(arg0);
+   }
+
+   @Override
+   public boolean retainAll(Collection<?> arg0) {
+      return delegate().retainAll(arg0);
+   }
+
+   @Override
+   public int size() {
+      return delegate().size();
+   }
+
+   @Override
+   public Object[] toArray() {
+      return delegate().toArray();
+   }
+
+   @Override
+   public <T> T[] toArray(T[] arg0) {
+      return delegate().toArray(arg0);
+   }
+}
+]]>
+</codefragment>
+</duplication>
+<duplication lines="19" tokens="135">
+<file line="138" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/AbstractVAppType.java"/>
+<file line="152" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/VAppTemplate.java"/>
+<file line="157" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/params/CaptureVAppParams.java"/>
+<file line="108" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/params/InstantiationParams.java"/>
+<codefragment>
+<![CDATA[
+   @XmlElementRefs({
+      @XmlElementRef(type = VirtualHardwareSection.class),
+      @XmlElementRef(type = LeaseSettingsSection.class),
+//      @XmlElementRef(type = EulaSection.class),
+      @XmlElementRef(type = RuntimeInfoSection.class),
+//      @XmlElementRef(type = AnnotationSection.class),
+      @XmlElementRef(type = DeploymentOptionSection.class),
+      @XmlElementRef(type = StartupSection.class),
+//      @XmlElementRef(type = ResourceAllocationSection.class),
+      @XmlElementRef(type = NetworkConnectionSection.class),
+      @XmlElementRef(type = CustomizationSection.class),
+      @XmlElementRef(type = ProductSection.class),
+      @XmlElementRef(type = GuestCustomizationSection.class),
+      @XmlElementRef(type = OperatingSystemSection.class),
+      @XmlElementRef(type = NetworkConfigSection.class),
+      @XmlElementRef(type = NetworkSection.class),
+//      @XmlElementRef(type = InstallSection.class),
+      @XmlElementRef(type = DiskSection.class)
+   })
+]]>
+</codefragment>
+</duplication>
+<duplication lines="46" tokens="135">
+<file line="61" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/dmtf/RasdItem.java"/>
+<file line="65" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/section/VirtualHardwareSection.java"/>
+<codefragment>
+<![CDATA[
+   public static class Builder<B extends Builder<B>> extends ResourceAllocationSettingData.Builder<Builder<B>>{
+
+      private URI href;
+      private String type;
+      private Set<Link> links = Sets.newLinkedHashSet();
+
+      @Override
+      @SuppressWarnings("unchecked")
+      protected B self() {
+         return (B) this;
+      }
+
+      /**
+       * @see ResourceAllocationSettingData#getType()
+       */
+      public B type(String type) {
+         this.type = type;
+         return self();
+      }
+
+      /**
+       * @see ResourceAllocationSettingData#getHref()
+       */
+      public B href(URI href) {
+         this.href = href;
+         return self();
+      }
+
+      /**
+       * @see ResourceAllocationSettingData#getLinks()
+       */
+      public B links(Set<Link> links) {
+         this.links = Sets.newLinkedHashSet(checkNotNull(links, "links"));
+         return self();
+      }
+
+      /**
+       * @see ResourceAllocationSettingData#getLinks()
+       */
+      public B link(Link link) {
+         this.links.add(checkNotNull(link, "link"));
+         return self();
+      }
+
+      @Override
+      public RasdItem build() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="14" tokens="109">
+<file line="55" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/functions/OrgNameCatalogNameItemNameToEndpoint.java"/>
+<file line="54" path="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/functions/OrgNameCatalogNameVAppTemplateNameToEndpoint.java"/>
+<codefragment>
+<![CDATA[
+      this.defaultOrg = defaultOrg;
+      this.defaultCatalog = defaultCatalog;
+   }
+
+   @SuppressWarnings("unchecked")
+   public URI apply(Object from) {
+      Iterable<Object> orgCatalog = (Iterable<Object>) checkNotNull(from, "args");
+      Object org = Iterables.get(orgCatalog, 0);
+      Object catalog = Iterables.get(orgCatalog, 1);
+      Object catalogItem = Iterables.get(orgCatalog, 2);
+      if (org == null)
+         org = defaultOrg.get().getName();
+      if (catalog == null)
+         catalog = defaultCatalog.get().getName();
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

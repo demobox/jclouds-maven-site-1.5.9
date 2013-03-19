@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T20:42:58.525">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/VCloudDirectorApiMetadata.java">
+<violation beginline="19" endline="112" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/compute/functions/HardwareForVAppTemplate.java">
+<violation beginline="77" endline="79" begincolumn="14" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.compute.functions" class="HardwareForVAppTemplate" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/compute/functions/ImageForVAppTemplate.java">
+<violation beginline="80" endline="82" begincolumn="14" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.compute.functions" class="ImageForVAppTemplate" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/compute/functions/VCloudHardwareBuilderFromResourceAllocations.java">
+<violation beginline="33" endline="42" begincolumn="11" endcolumn="4" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.compute.functions" class="VCloudHardwareBuilderFromResourceAllocations" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/compute/functions/VmToNodeMetadata.java">
+<violation beginline="19" endline="98" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/config/VCloudDirectorRestClientModule.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Throwables.propagate'
+</violation>
+<violation beginline="23" endline="23" begincolumn="1" endcolumn="62" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.Constants.PROPERTY_SESSION_INTERVAL'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/CatalogReference.java">
+<violation beginline="65" endline="65" begincolumn="19" endcolumn="34" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain" class="CatalogReference" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/MetadataValue.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Objects.equal'
+</violation>
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="64" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkNotNull'
+</violation>
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.net.URI'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="44" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.bind.annotation.XmlElement'
+</violation>
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.bind.annotation.XmlRootElement'
+</violation>
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="64" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.VCloudDirectorMediaType'
+</violation>
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Objects'
+</violation>
+<violation beginline="33" endline="33" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Objects.ToStringHelper'
+</violation>
+<violation beginline="34" endline="34" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Sets'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/RoleReference.java">
+<violation beginline="65" endline="65" begincolumn="19" endcolumn="34" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain" class="RoleReference" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/RoleReferences.java">
+<violation beginline="79" endline="79" begincolumn="19" endcolumn="34" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain" class="RoleReferences" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/VAppReference.java">
+<violation beginline="65" endline="65" begincolumn="19" endcolumn="34" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain" class="VAppReference" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/Vdc.java">
+<violation beginline="127" endline="127" begincolumn="89" endcolumn="89" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain" class="Vdc$Builder" method="network" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/dmtf/RasdItem.java">
+<violation beginline="130" endline="130" begincolumn="92" endcolumn="92" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.dmtf" class="RasdItem" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/network/SmtpServerSettings.java">
+<violation beginline="123" endline="128" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.network" class="SmtpServerSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'password'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/org/CustomOrgLdapSettings.java">
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'connectorType'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'groupAttributes'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'groupSearchBase'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'isGroupSearchBaseEnabled'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'isSslAcceptAll'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'realm'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'searchBase'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'userAttributes'.
+</violation>
+<violation beginline="333" endline="344" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.director.v1_5.domain.org" class="CustomOrgLdapSettings" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'userName'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/query/CatalogReferences.java">
+<violation beginline="68" endline="68" begincolumn="19" endcolumn="34" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.query" class="CatalogReferences" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/query/QueryList.java">
+<violation beginline="83" endline="85" begincolumn="11" endcolumn="4" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.query" class="QueryList" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="88" endline="90" begincolumn="11" endcolumn="4" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.query" class="QueryList" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/query/VAppReferences.java">
+<violation beginline="68" endline="68" begincolumn="19" endcolumn="34" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.query" class="VAppReferences" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/section/OperatingSystemSection.java">
+<violation beginline="19" endline="213" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.domain.section" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="145" endline="145" begincolumn="92" endcolumn="92" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.section" class="OperatingSystemSection" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/section/VirtualHardwareSection.java">
+<violation beginline="135" endline="135" begincolumn="92" endcolumn="92" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.vcloud.director.v1_5.domain.section" class="VirtualHardwareSection" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/CatalogApi.java">
+<violation beginline="29" endline="29" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/CatalogAsyncApi.java">
+<violation beginline="42" endline="42" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/MediaApi.java">
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/MediaAsyncApi.java">
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/NetworkApi.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/NetworkAsyncApi.java">
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/OrgApi.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/OrgAsyncApi.java">
+<violation beginline="33" endline="33" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/VAppAsyncApi.java">
+<violation beginline="19" endline="639" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/VAppTemplateAsyncApi.java">
+<violation beginline="19" endline="378" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/VdcApi.java">
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/VdcAsyncApi.java">
+<violation beginline="39" endline="39" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/VmApi.java">
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="52" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.VApp'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/VmAsyncApi.java">
+<violation beginline="19" endline="990" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="47" endline="47" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.dmtf.cim.ResourceAllocationSettingData'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/admin/AdminCatalogApi.java">
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features.admin" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/features/admin/AdminCatalogAsyncApi.java">
+<violation beginline="43" endline="43" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.director.v1_5.features.admin" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.vcloud.director.v1_5.domain.Metadata'
+</violation>
+</file>
+</pmd>
