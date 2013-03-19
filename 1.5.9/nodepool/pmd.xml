@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T17:06:35.378">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/nodepool/src/main/java/org/jclouds/nodepool/Backend.java">
+<violation beginline="19" endline="42" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.nodepool" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/nodepool/src/main/java/org/jclouds/nodepool/NodePoolApiMetadata.java">
+<violation beginline="19" endline="106" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.nodepool" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/nodepool/src/main/java/org/jclouds/nodepool/internal/BaseNodePoolComputeServiceAdapter.java">
+<violation beginline="63" endline="75" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.nodepool.internal" class="BaseNodePoolComputeServiceAdapter" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'configuration'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/nodepool/src/main/java/org/jclouds/nodepool/internal/EagerNodePoolComputeServiceAdapter.java">
+<violation beginline="20" endline="189" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.nodepool.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="156" endline="158" begincolumn="12" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.nodepool.internal" class="EagerNodePoolComputeServiceAdapter" method="destroyNode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+</pmd>
