@@ -1,0 +1,9 @@
+org.jclouds.ultradns.ws
+org.jclouds.ultradns.ws.binders
+org.jclouds.ultradns.ws.config
+org.jclouds.ultradns.ws.domain
+org.jclouds.ultradns.ws.features
+org.jclouds.ultradns.ws.filters
+org.jclouds.ultradns.ws.handlers
+org.jclouds.ultradns.ws.predicates
+org.jclouds.ultradns.ws.xml
