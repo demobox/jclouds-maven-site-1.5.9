@@ -1,0 +1,10 @@
+org.jclouds.route53
+org.jclouds.route53.binders
+org.jclouds.route53.config
+org.jclouds.route53.domain
+org.jclouds.route53.features
+org.jclouds.route53.filters
+org.jclouds.route53.functions
+org.jclouds.route53.handlers
+org.jclouds.route53.predicates
+org.jclouds.route53.xml
