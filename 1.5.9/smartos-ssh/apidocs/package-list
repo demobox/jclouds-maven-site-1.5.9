@@ -1,0 +1,5 @@
+org.jclouds.smartos
+org.jclouds.smartos.compute.config
+org.jclouds.smartos.compute.domain
+org.jclouds.smartos.compute.functions
+org.jclouds.smartos.compute.strategy
