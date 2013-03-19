@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T03:52:44.195">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/providers/slicehost/src/main/java/org/jclouds/slicehost/handlers/ParseSlicehostErrorFromHttpResponse.java">
+<violation beginline="123" endline="124" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.slicehost.handlers" class="ParseSlicehostErrorFromHttpResponse" method="parseErrorFromContentOrNull" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/providers/slicehost/src/main/java/org/jclouds/slicehost/xml/SliceHandler.java">
+<violation beginline="76" endline="78" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.slicehost.xml" class="SliceHandler" method="endElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

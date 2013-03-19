@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Mar 18 16:08:18 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="11"/>
+    <classes value="42"/>
+    <methods value="162"/>
+    <srcfiles value="28"/>
+    <srclines value="627"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="81%  (34/42)"/>
+      <coverage type="method, %" value="64%  (104/162)"/>
+      <coverage type="block, %" value="62%  (1956/3142)"/>
+      <coverage type="line, %" value="61%  (381/627)"/>
+
+      <package name="org.jclouds.slicehost.predicates">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/6)"/>
+        <coverage type="block, %" value="0%   (0/128)"/>
+        <coverage type="line, %" value="0%   (0/22)"/>
+
+        <srcfile name="SliceActive.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/64)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
+
+          <class name="SliceActive">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/64)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
+
+            <method name="SliceActive (SlicehostClient): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (Slice): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/49)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="refresh (Slice): Slice">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SliceTerminated.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/64)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
+
+          <class name="SliceTerminated">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/64)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
+
+            <method name="SliceTerminated (SlicehostClient): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (Slice): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/49)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="refresh (Slice): Slice">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.compute.strategy">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="8%   (1/12)"/>
+        <coverage type="block, %" value="9%   (9/99)"/>
+        <coverage type="line, %" value="14%  (3/21)"/>
+
+        <srcfile name="SlicehostComputeServiceAdapter.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="8%   (1/12)"/>
+          <coverage type="block, %" value="9%   (9/99)"/>
+          <coverage type="line, %" value="14%  (3/21)"/>
+
+          <class name="SlicehostComputeServiceAdapter">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="8%   (1/12)"/>
+            <coverage type="block, %" value="9%   (9/99)"/>
+            <coverage type="line, %" value="14%  (3/21)"/>
+
+            <method name="createNodeWithGroupEncodedIntoName (String, String, Template): ComputeServiceAdapter$NodeAndInitialCredentials">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/32)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="destroyNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="getImage (String): Image">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getNode (String): Slice">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="listHardwareProfiles (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="listImages (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="listLocations (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="listNodes (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="rebootNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="resumeNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="suspendNode (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SlicehostComputeServiceAdapter (SlicehostClient): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.handlers">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="50%  (3/6)"/>
+        <coverage type="block, %" value="15%  (25/170)"/>
+        <coverage type="line, %" value="27%  (10/37)"/>
+
+        <srcfile name="ParseSlicehostErrorFromHttpResponse.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="50%  (3/6)"/>
+          <coverage type="block, %" value="15%  (25/170)"/>
+          <coverage type="line, %" value="27%  (10/37)"/>
+
+          <class name="ParseSlicehostErrorFromHttpResponse">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (2/4)"/>
+            <coverage type="block, %" value="9%   (13/147)"/>
+            <coverage type="line, %" value="16%  (5/31)"/>
+
+            <method name="handleError (HttpCommand, HttpResponse): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/111)"/>
+              <coverage type="line, %" value="0%   (0/21)"/>
+            </method>
+            <method name="parseErrorFromContentOrNull (HttpCommand, HttpResponse): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="ParseSlicehostErrorFromHttpResponse (ParseSlicehostErrorFromHttpResponse$ErrorParser): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="ParseSlicehostErrorFromHttpResponse$ErrorParser">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="52%  (12/23)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="parse (String): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ParseSlicehostErrorFromHttpResponse$ErrorParser (ParseSax$Factory, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.filters">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="50%  (1/2)"/>
+        <coverage type="block, %" value="26%  (9/35)"/>
+        <coverage type="line, %" value="75%  (3/4)"/>
+
+        <srcfile name="SlicehostBasic.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="26%  (9/35)"/>
+          <coverage type="line, %" value="75%  (3/4)"/>
+
+          <class name="SlicehostBasic">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="26%  (9/35)"/>
+            <coverage type="line, %" value="75%  (3/4)"/>
+
+            <method name="filter (HttpRequest): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/26)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="SlicehostBasic (Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.binders">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="33%  (2/6)"/>
+        <coverage type="block, %" value="52%  (77/149)"/>
+        <coverage type="line, %" value="50%  (15/30)"/>
+
+        <srcfile name="BindCreateBackupToXmlPayload.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/67)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
+
+          <class name="BindCreateBackupToXmlPayload">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/67)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
+
+            <method name="BindCreateBackupToXmlPayload (BindToStringPayload): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Map): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/56)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BindCreateSliceToXmlPayload.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="94%  (77/82)"/>
+          <coverage type="line, %" value="94%  (15/16)"/>
+
+          <class name="BindCreateSliceToXmlPayload">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="94%  (77/82)"/>
+            <coverage type="line, %" value="94%  (15/16)"/>
+
+            <method name="bindToRequest (HttpRequest, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="BindCreateSliceToXmlPayload (BindToStringPayload): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="bindToRequest (HttpRequest, Map): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (71/71)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.domain">
+        <coverage type="class, %" value="80%  (4/5)"/>
+        <coverage type="method, %" value="57%  (25/44)"/>
+        <coverage type="block, %" value="55%  (533/968)"/>
+        <coverage type="line, %" value="52%  (106.2/204)"/>
+
+        <srcfile name="Backup.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/8)"/>
+          <coverage type="block, %" value="0%   (0/182)"/>
+          <coverage type="line, %" value="0%   (0/43)"/>
+
+          <class name="Backup">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/8)"/>
+            <coverage type="block, %" value="0%   (0/182)"/>
+            <coverage type="line, %" value="0%   (0/43)"/>
+
+            <method name="Backup (int, String, String, Date): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/76)"/>
+              <coverage type="line, %" value="0%   (0/25)"/>
+            </method>
+            <method name="getDate (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getSliceId (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Slice.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="64%  (14/22)"/>
+          <coverage type="block, %" value="67%  (354/526)"/>
+          <coverage type="line, %" value="61%  (59.3/97)"/>
+
+          <class name="Slice">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (9/15)"/>
+            <coverage type="block, %" value="63%  (267/427)"/>
+            <coverage type="line, %" value="63%  (56.3/90)"/>
+
+            <method name="getBackupId (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getBandwidthIn (): float">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getBandwidthOut (): float">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getProgress (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getRootPassword (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/66)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (102/165)"/>
+              <coverage type="line, %" value="47%  (24/51)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (111/127)"/>
+              <coverage type="line, %" value="95%  (13.3/14)"/>
+            </method>
+            <method name="Slice (int, String, int, Integer, Integer, Slice$Status, Integer, float, float, Set, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="getAddresses (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getFlavorId (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getImageId (): Integer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getStatus (): Slice$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Slice$Status">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="88%  (87/99)"/>
+            <coverage type="line, %" value="43%  (3/7)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="value (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): Slice$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (9/12)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (64/64)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="Slice$Status (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): Slice$Status">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): Slice$Status []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Image.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="83%  (5/6)"/>
+          <coverage type="block, %" value="69%  (70/102)"/>
+          <coverage type="line, %" value="74%  (19.9/27)"/>
+
+          <class name="Image">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="69%  (70/102)"/>
+            <coverage type="line, %" value="74%  (19.9/27)"/>
+
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="70%  (31/44)"/>
+              <coverage type="line, %" value="60%  (9/15)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (24/26)"/>
+              <coverage type="line, %" value="98%  (4.9/5)"/>
+            </method>
+            <method name="Image (int, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Flavor.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (6/8)"/>
+          <coverage type="block, %" value="69%  (109/158)"/>
+          <coverage type="line, %" value="73%  (27/37)"/>
+
+          <class name="Flavor">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="69%  (109/158)"/>
+            <coverage type="line, %" value="73%  (27/37)"/>
+
+            <method name="getPrice (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="73%  (45/62)"/>
+              <coverage type="line, %" value="58%  (11/19)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (40/42)"/>
+              <coverage type="line, %" value="99%  (7/7)"/>
+            </method>
+            <method name="Flavor (int, String, int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="getId (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRam (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.xml">
+        <coverage type="class, %" value="67%  (6/9)"/>
+        <coverage type="method, %" value="68%  (27/40)"/>
+        <coverage type="block, %" value="72%  (595/830)"/>
+        <coverage type="line, %" value="71%  (127.8/180)"/>
+
+        <srcfile name="BackupHandler.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/120)"/>
+          <coverage type="line, %" value="0%   (0/25)"/>
+
+          <class name="BackupHandler">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/120)"/>
+            <coverage type="line, %" value="0%   (0/25)"/>
+
+            <method name="BackupHandler (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/98)"/>
+              <coverage type="line, %" value="0%   (0/19)"/>
+            </method>
+            <method name="getResult (): Backup">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="BackupsHandler.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/5)"/>
+          <coverage type="block, %" value="0%   (0/69)"/>
+          <coverage type="line, %" value="0%   (0/16)"/>
+
+          <class name="BackupsHandler">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/69)"/>
+            <coverage type="line, %" value="0%   (0/16)"/>
+
+            <method name="BackupsHandler (BackupHandler): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ErrorHandler.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/35)"/>
+          <coverage type="line, %" value="0%   (0/9)"/>
+
+          <class name="ErrorHandler">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/35)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="ErrorHandler (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getResult (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SliceHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="95%  (217/228)"/>
+          <coverage type="line, %" value="95%  (42.8/45)"/>
+
+          <class name="SliceHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="95%  (217/228)"/>
+            <coverage type="line, %" value="95%  (42.8/45)"/>
+
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (195/206)"/>
+              <coverage type="line, %" value="94%  (36.8/39)"/>
+            </method>
+            <method name="SliceHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getResult (): Slice">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="FlavorHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (101/101)"/>
+          <coverage type="line, %" value="100% (21/21)"/>
+
+          <class name="FlavorHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (101/101)"/>
+            <coverage type="line, %" value="100% (21/21)"/>
+
+            <method name="FlavorHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (82/82)"/>
+              <coverage type="line, %" value="100% (16/16)"/>
+            </method>
+            <method name="getResult (): Flavor">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="FlavorsHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (69/69)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="FlavorsHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (69/69)"/>
+            <coverage type="line, %" value="100% (16/16)"/>
+
+            <method name="FlavorsHandler (FlavorHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ImageHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (70/70)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="ImageHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (70/70)"/>
+            <coverage type="line, %" value="100% (16/16)"/>
+
+            <method name="ImageHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (48/48)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="getResult (): Image">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ImagesHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (69/69)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="ImagesHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (69/69)"/>
+            <coverage type="line, %" value="100% (16/16)"/>
+
+            <method name="ImagesHandler (ImageHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SlicesHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (69/69)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="SlicesHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (69/69)"/>
+            <coverage type="line, %" value="100% (16/16)"/>
+
+            <method name="SlicesHandler (SliceHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getResult (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.compute.functions">
+        <coverage type="class, %" value="86%  (6/7)"/>
+        <coverage type="method, %" value="100% (17/17)"/>
+        <coverage type="block, %" value="91%  (423/467)"/>
+        <coverage type="line, %" value="88%  (73/83)"/>
+
+        <srcfile name="SlicehostImageToOperatingSystem.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="66%  (87/131)"/>
+          <coverage type="line, %" value="68%  (21/31)"/>
+
+          <class name="SlicehostImageToOperatingSystem">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="66%  (87/131)"/>
+            <coverage type="line, %" value="68%  (21/31)"/>
+
+            <method name="apply (Image): OperatingSystem">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="62%  (71/115)"/>
+              <coverage type="line, %" value="60%  (15/25)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="SlicehostImageToOperatingSystem (Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="FlavorToHardware.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (52/52)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="FlavorToHardware">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (52/52)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="FlavorToHardware (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Flavor): Hardware">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (49/49)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SliceToNodeMetadata.java">
+          <coverage type="class, %" value="75%  (3/4)"/>
+          <coverage type="method, %" value="100% (10/10)"/>
+          <coverage type="block, %" value="100% (235/235)"/>
+          <coverage type="line, %" value="100% (39/39)"/>
+
+          <class name="SliceToNodeMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (187/187)"/>
+            <coverage type="line, %" value="100% (29/29)"/>
+
+            <method name="SliceToNodeMetadata (Map, Supplier, Supplier, Supplier, GroupNamingConvention$Factory): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="apply (Slice): NodeMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (94/94)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="parseHardware (Slice): Hardware">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="parseOperatingSystem (Slice): OperatingSystem">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="SliceToNodeMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="SliceToNodeMetadata$FindHardwareForSlice">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (24/24)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="SliceToNodeMetadata$FindHardwareForSlice (Slice): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="SliceToNodeMetadata$FindHardwareForSlice (Slice, SliceToNodeMetadata$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Hardware): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SliceToNodeMetadata$FindImageForSlice">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (24/24)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="SliceToNodeMetadata$FindImageForSlice (Slice): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="SliceToNodeMetadata$FindImageForSlice (Slice, SliceToNodeMetadata$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Image): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SlicehostImageToImage.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (49/49)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="SlicehostImageToImage">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (49/49)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="SlicehostImageToImage (Function): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="apply (Image): Image">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="94%  (16/17)"/>
+        <coverage type="block, %" value="92%  (134/145)"/>
+        <coverage type="line, %" value="90%  (27/30)"/>
+
+        <srcfile name="SlicehostProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="88%  (7/8)"/>
+          <coverage type="block, %" value="85%  (61/72)"/>
+          <coverage type="line, %" value="80%  (12/15)"/>
+
+          <class name="SlicehostProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="59%  (16/27)"/>
+            <coverage type="line, %" value="67%  (6/9)"/>
+
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="SlicehostProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="SlicehostProviderMetadata (SlicehostProviderMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): SlicehostProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toBuilder (): SlicehostProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (45/45)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="SlicehostProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): SlicehostProviderMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): SlicehostProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="SlicehostApiMetadata.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="100% (9/9)"/>
+          <coverage type="block, %" value="100% (73/73)"/>
+          <coverage type="line, %" value="100% (15/15)"/>
+
+          <class name="SlicehostApiMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (30/30)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="SlicehostApiMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="SlicehostApiMetadata (SlicehostApiMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="toBuilder (): SlicehostApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostApiMetadata$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostApiMetadata$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostApiMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (40/40)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="SlicehostApiMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): SlicehostApiMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromApiMetadata (ApiMetadata): SlicehostApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.compute.config">
+        <coverage type="class, %" value="100% (7/7)"/>
+        <coverage type="method, %" value="100% (10/10)"/>
+        <coverage type="block, %" value="100% (123/123)"/>
+        <coverage type="line, %" value="100% (11/11)"/>
+
+        <srcfile name="SlicehostComputeServiceContextModule.java">
+          <coverage type="class, %" value="100% (7/7)"/>
+          <coverage type="method, %" value="100% (10/10)"/>
+          <coverage type="block, %" value="100% (123/123)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="SlicehostComputeServiceContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (87/87)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="SlicehostComputeServiceContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (60/60)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="provideSliceToNodeStatus (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostComputeServiceContextModule$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostComputeServiceContextModule$1 (SlicehostComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostComputeServiceContextModule$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostComputeServiceContextModule$2 (SlicehostComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostComputeServiceContextModule$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostComputeServiceContextModule$3 (SlicehostComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostComputeServiceContextModule$4">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostComputeServiceContextModule$4 (SlicehostComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostComputeServiceContextModule$5">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostComputeServiceContextModule$5 (SlicehostComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="SlicehostComputeServiceContextModule$6">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="SlicehostComputeServiceContextModule$6 (SlicehostComputeServiceContextModule): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.slicehost.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (28/28)"/>
+        <coverage type="line, %" value="100% (5/5)"/>
+
+        <srcfile name="SlicehostRestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (28/28)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="SlicehostRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (28/28)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="SlicehostRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="bindErrorHandlers (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
