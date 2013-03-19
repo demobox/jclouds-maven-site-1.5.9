@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Mar 18 16:08:18 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="8"/>
+    <classes value="16"/>
+    <methods value="48"/>
+    <srcfiles value="11"/>
+    <srclines value="134"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="88%  (14/16)"/>
+      <coverage type="method, %" value="85%  (41/48)"/>
+      <coverage type="block, %" value="68%  (493/729)"/>
+      <coverage type="line, %" value="75%  (100.6/134)"/>
+
+      <package name="org.jclouds.trmk.ecloud.suppliers">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="50%  (1/2)"/>
+        <coverage type="block, %" value="6%   (9/150)"/>
+        <coverage type="line, %" value="17%  (4/24)"/>
+
+        <srcfile name="TerremarkECloudInternetServiceAndPublicIpAddressSupplier.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="6%   (9/150)"/>
+          <coverage type="line, %" value="17%  (4/24)"/>
+
+          <class name="TerremarkECloudInternetServiceAndPublicIpAddressSupplier">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="6%   (9/150)"/>
+            <coverage type="line, %" value="17%  (4/24)"/>
+
+            <method name="getNewInternetServiceAndIp (VApp, int, Protocol): Map$Entry">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/141)"/>
+              <coverage type="line, %" value="0%   (0/20)"/>
+            </method>
+            <method name="TerremarkECloudInternetServiceAndPublicIpAddressSupplier (TerremarkECloudClient): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud.config">
+        <coverage type="class, %" value="33%  (1/3)"/>
+        <coverage type="method, %" value="44%  (4/9)"/>
+        <coverage type="block, %" value="19%  (18/94)"/>
+        <coverage type="line, %" value="36%  (5/14)"/>
+
+        <srcfile name="TerremarkECloudRestClientModule.java">
+          <coverage type="class, %" value="33%  (1/3)"/>
+          <coverage type="method, %" value="44%  (4/9)"/>
+          <coverage type="block, %" value="19%  (18/94)"/>
+          <coverage type="line, %" value="36%  (5/14)"/>
+
+          <class name="TerremarkECloudRestClientModule$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/11)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="TerremarkECloudRestClientModule$1 (TerremarkECloudRestClientModule): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideDefaultNetworkSelector (Injector): Predicate">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="TerremarkECloudRestClientModule$IsDMZNetwork">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/58)"/>
+            <coverage type="line, %" value="0%   (0/6)"/>
+
+            <method name="TerremarkECloudRestClientModule$IsDMZNetwork (TerremarkECloudClient): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="apply (ReferenceType): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="TerremarkECloudRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="72%  (18/25)"/>
+            <coverage type="line, %" value="71%  (5/7)"/>
+
+            <method name="installDefaultVCloudEndpointsModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="TerremarkECloudRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="provideTerremarkAsyncClient (TerremarkECloudAsyncClient): TerremarkVCloudAsyncClient">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="provideTerremarkClient (TerremarkECloudClient): TerremarkVCloudClient">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud.compute.functions">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (3/3)"/>
+        <coverage type="block, %" value="94%  (101/108)"/>
+        <coverage type="line, %" value="90%  (18/20)"/>
+
+        <srcfile name="TerremarkECloudParseOsFromVAppTemplateName.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="94%  (101/108)"/>
+          <coverage type="line, %" value="90%  (18/20)"/>
+
+          <class name="TerremarkECloudParseOsFromVAppTemplateName">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="94%  (101/108)"/>
+            <coverage type="line, %" value="90%  (18/20)"/>
+
+            <method name="apply (String): OperatingSystem">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="93%  (93/100)"/>
+              <coverage type="line, %" value="88%  (15/17)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="TerremarkECloudParseOsFromVAppTemplateName (Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="94%  (16/17)"/>
+        <coverage type="block, %" value="96%  (140/146)"/>
+        <coverage type="line, %" value="93%  (28/30)"/>
+
+        <srcfile name="TerremarkECloudProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="88%  (7/8)"/>
+          <coverage type="block, %" value="92%  (67/73)"/>
+          <coverage type="line, %" value="86%  (12/14)"/>
+
+          <class name="TerremarkECloudProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="73%  (16/22)"/>
+            <coverage type="line, %" value="75%  (6/8)"/>
+
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TerremarkECloudProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="TerremarkECloudProviderMetadata (TerremarkECloudProviderMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): TerremarkECloudProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toBuilder (): TerremarkECloudProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="TerremarkECloudProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (51/51)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="TerremarkECloudProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (40/40)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): TerremarkECloudProviderMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): TerremarkECloudProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="TerremarkECloudApiMetadata.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="100% (9/9)"/>
+          <coverage type="block, %" value="100% (73/73)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="TerremarkECloudApiMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (35/35)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="TerremarkECloudApiMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="TerremarkECloudApiMetadata (TerremarkECloudApiMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toBuilder (): TerremarkECloudApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="TerremarkECloudApiMetadata$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="TerremarkECloudApiMetadata$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="TerremarkECloudApiMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (35/35)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="TerremarkECloudApiMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): TerremarkECloudApiMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromApiMetadata (ApiMetadata): TerremarkECloudApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud.xml">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (7/7)"/>
+        <coverage type="block, %" value="96%  (145/151)"/>
+        <coverage type="line, %" value="99%  (26.6/27)"/>
+
+        <srcfile name="TagNameToUsageCountHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="91%  (58/64)"/>
+          <coverage type="line, %" value="97%  (12.6/13)"/>
+
+          <class name="TagNameToUsageCountHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="91%  (58/64)"/>
+            <coverage type="line, %" value="97%  (12.6/13)"/>
+
+            <method name="getResult (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="60%  (9/15)"/>
+              <coverage type="line, %" value="80%  (1.6/2)"/>
+            </method>
+            <method name="TagNameToUsageCountHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ECloudOrgHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (87/87)"/>
+          <coverage type="line, %" value="100% (14/14)"/>
+
+          <class name="ECloudOrgHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (87/87)"/>
+            <coverage type="line, %" value="100% (14/14)"/>
+
+            <method name="ECloudOrgHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getResult (): ECloudOrg">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="startElement (String, String, String, Attributes): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (55/55)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud.compute.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (18/18)"/>
+        <coverage type="line, %" value="100% (5/5)"/>
+
+        <srcfile name="TerremarkECloudComputeServiceContextModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (18/18)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
+
+          <class name="TerremarkECloudComputeServiceContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (18/18)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
+
+            <method name="TerremarkECloudComputeServiceContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud.domain.internal">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="100% (38/38)"/>
+        <coverage type="line, %" value="100% (8/8)"/>
+
+        <srcfile name="ECloudOrgImpl.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (38/38)"/>
+          <coverage type="line, %" value="100% (8/8)"/>
+
+          <class name="ECloudOrgImpl">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (38/38)"/>
+            <coverage type="line, %" value="100% (8/8)"/>
+
+            <method name="ECloudOrgImpl (String, String, URI, String, Map, Map, Map, ReferenceType, ReferenceType, ReferenceType, ReferenceType): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (29/29)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="getDataCenters (): ReferenceType">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getTags (): ReferenceType">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getVAppCatalog (): ReferenceType">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trmk.ecloud.functions">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="100% (24/24)"/>
+        <coverage type="line, %" value="100% (6/6)"/>
+
+        <srcfile name="OrgURIToDataCentersListEndpoint.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (12/12)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="OrgURIToDataCentersListEndpoint">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (12/12)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="OrgURIToDataCentersListEndpoint (Supplier, Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getUriFromOrg (Org): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="OrgURIToTagsListEndpoint.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (12/12)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
+
+          <class name="OrgURIToTagsListEndpoint">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (12/12)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
+
+            <method name="OrgURIToTagsListEndpoint (Supplier, Supplier): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getUriFromOrg (Org): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
