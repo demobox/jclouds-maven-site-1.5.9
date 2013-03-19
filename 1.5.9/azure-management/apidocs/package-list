@@ -1,0 +1,15 @@
+org.jclouds.azure.management
+org.jclouds.azure.management.binders
+org.jclouds.azure.management.compute
+org.jclouds.azure.management.compute.config
+org.jclouds.azure.management.compute.functions
+org.jclouds.azure.management.config
+org.jclouds.azure.management.domain
+org.jclouds.azure.management.domain.hostedservice
+org.jclouds.azure.management.domain.role
+org.jclouds.azure.management.domain.role.conf
+org.jclouds.azure.management.features
+org.jclouds.azure.management.functions
+org.jclouds.azure.management.options
+org.jclouds.azure.management.suppliers
+org.jclouds.azure.management.xml

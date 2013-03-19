@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T17:34:51.472">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/azure-management/src/main/java/org/jclouds/azure/management/compute/AzureManagementComputeServiceAdapter.java">
+<violation beginline="52" endline="52" begincolumn="42" endcolumn="44" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azure.management.compute" class="AzureManagementComputeServiceAdapter" variable="api" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'api'.
+</violation>
+<violation beginline="53" endline="53" begincolumn="47" endcolumn="50" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azure.management.compute" class="AzureManagementComputeServiceAdapter" variable="aapi" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'aapi'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/azure-management/src/main/java/org/jclouds/azure/management/domain/Operation.java">
+<violation beginline="110" endline="110" begincolumn="70" endcolumn="70" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.azure.management.domain" class="Operation$Builder" method="httpStatusCode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="142" endline="142" begincolumn="87" endcolumn="87" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="org.jclouds.azure.management.domain" class="Operation" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/azure-management/src/main/java/org/jclouds/azure/management/suppliers/KeyStoreSupplier.java">
+<violation beginline="112" endline="112" begincolumn="37" endcolumn="66" rule="AvoidThreadGroup" ruleset="Basic Rules" package="org.jclouds.azure.management.suppliers" class="KeyStoreSupplier" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidThreadGroup" priority="3">
+Avoid using java.lang.ThreadGroup; it is not thread safe
+</violation>
+</file>
+</pmd>
