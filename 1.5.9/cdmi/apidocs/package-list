@@ -1,0 +1,10 @@
+org.jclouds.snia.cdmi.v1
+org.jclouds.snia.cdmi.v1.binders
+org.jclouds.snia.cdmi.v1.config
+org.jclouds.snia.cdmi.v1.domain
+org.jclouds.snia.cdmi.v1.features
+org.jclouds.snia.cdmi.v1.filters
+org.jclouds.snia.cdmi.v1.functions
+org.jclouds.snia.cdmi.v1.handlers
+org.jclouds.snia.cdmi.v1.options
+org.jclouds.snia.cdmi.v1.queryparams

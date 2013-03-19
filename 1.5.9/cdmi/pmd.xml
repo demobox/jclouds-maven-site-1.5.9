@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T22:12:24.296">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/cdmi/src/main/java/org/jclouds/snia/cdmi/v1/domain/CDMIObject.java">
+<violation beginline="211" endline="211" begincolumn="25" endcolumn="46" rule="UselessOperationOnImmutable" ruleset="Basic Rules" package="org.jclouds.snia.cdmi.v1.domain" class="CDMIObject" method="parseMetadata" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOperationOnImmutable" priority="3">
+An operation on an Immutable object (String, BigDecimal or BigInteger) won't change the object itself
+</violation>
+</file>
+</pmd>
