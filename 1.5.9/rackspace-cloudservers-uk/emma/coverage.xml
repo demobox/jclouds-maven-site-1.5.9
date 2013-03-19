@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Mar 19 16:22:36 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="3"/>
+    <methods value="10"/>
+    <srcfiles value="2"/>
+    <srclines value="19"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (3/3)"/>
+      <coverage type="method, %" value="100% (10/10)"/>
+      <coverage type="block, %" value="100% (132/132)"/>
+      <coverage type="line, %" value="100% (19/19)"/>
+
+      <package name="org.jclouds.rackspace.cloudservers.uk">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (8/8)"/>
+        <coverage type="block, %" value="100% (117/117)"/>
+        <coverage type="line, %" value="100% (17/17)"/>
+
+        <srcfile name="CloudServersUKProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (8/8)"/>
+          <coverage type="block, %" value="100% (117/117)"/>
+          <coverage type="line, %" value="100% (17/17)"/>
+
+          <class name="CloudServersUKProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (37/37)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="CloudServersUKProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="CloudServersUKProviderMetadata (CloudServersUKProviderMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): CloudServersUKProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (21/21)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="toBuilder (): CloudServersUKProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CloudServersUKProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (80/80)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="CloudServersUKProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (69/69)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): CloudServersUKProviderMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): CloudServersUKProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.rackspace.cloudservers.uk.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (15/15)"/>
+        <coverage type="line, %" value="100% (2/2)"/>
+
+        <srcfile name="CloudServersUKComputeServiceContextModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (15/15)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="CloudServersUKComputeServiceContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (15/15)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="CloudServersUKComputeServiceContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="osFamilyToCredentials (Injector): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
