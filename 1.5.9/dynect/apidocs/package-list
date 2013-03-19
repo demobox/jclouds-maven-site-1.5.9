@@ -1,0 +1,10 @@
+org.jclouds.dynect.v3
+org.jclouds.dynect.v3.config
+org.jclouds.dynect.v3.domain
+org.jclouds.dynect.v3.domain.rdata
+org.jclouds.dynect.v3.features
+org.jclouds.dynect.v3.filters
+org.jclouds.dynect.v3.functions
+org.jclouds.dynect.v3.handlers
+org.jclouds.dynect.v3.loaders
+org.jclouds.dynect.v3.predicates

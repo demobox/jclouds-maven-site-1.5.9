@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T18:26:52.911">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/dynect/src/main/java/org/jclouds/dynect/v3/DynECTExceptionParsers.java">
+<violation beginline="23" endline="23" begincolumn="1" endcolumn="72" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.dynect.v3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.util.concurrent.Futures.immediateFuture'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/dynect/src/main/java/org/jclouds/dynect/v3/features/ZoneAsyncApi.java">
+<violation beginline="39" endline="39" begincolumn="8" endcolumn="40" rule="DuplicateImports" ruleset="Import Statement Rules" package="org.jclouds.dynect.v3.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#DuplicateImports" priority="4">
+Avoid duplicate imports such as 'org.jclouds.dynect.v3.domain.Zone'
+</violation>
+</file>
+</pmd>
