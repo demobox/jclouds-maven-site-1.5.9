@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Mar 19 16:22:36 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="2"/>
+    <methods value="7"/>
+    <srcfiles value="1"/>
+    <srclines value="12"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (2/2)"/>
+      <coverage type="method, %" value="43%  (3/7)"/>
+      <coverage type="block, %" value="68%  (40/59)"/>
+      <coverage type="line, %" value="50%  (6/12)"/>
+
+      <package name="org.jclouds.fujitsu.fgcp">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="43%  (3/7)"/>
+        <coverage type="block, %" value="68%  (40/59)"/>
+        <coverage type="line, %" value="50%  (6/12)"/>
+
+        <srcfile name="FGCPAUProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="43%  (3/7)"/>
+          <coverage type="block, %" value="68%  (40/59)"/>
+          <coverage type="line, %" value="50%  (6/12)"/>
+
+          <class name="FGCPAUProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (2/4)"/>
+            <coverage type="block, %" value="50%  (8/16)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="FGCPAUProviderMetadata (FGCPAUProviderMetadata$Builder): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toBuilder (): FGCPAUProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="FGCPAUProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): FGCPAUProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="FGCPAUProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="74%  (32/43)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="build (): FGCPAUProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): FGCPAUProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="FGCPAUProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
