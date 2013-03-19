@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T19:33:08.177">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/providers/eucalyptus-partnercloud-s3/src/main/java/org/jclouds/epc/EucalyptusPartnerCloudS3ProviderMetadata.java">
+<violation beginline="19" endline="96" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.epc" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
