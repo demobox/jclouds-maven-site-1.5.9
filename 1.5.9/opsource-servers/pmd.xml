@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T21:05:59.131">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/opsource-servers/src/main/java/org/jclouds/opsource/servers/domain/DeployedServer.java">
+<violation beginline="209" endline="211" begincolumn="16" endcolumn="9" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.opsource.servers.domain" class="DeployedServer" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/opsource-servers/src/main/java/org/jclouds/opsource/servers/domain/PendingDeployServer.java">
+<violation beginline="156" endline="158" begincolumn="16" endcolumn="9" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.opsource.servers.domain" class="PendingDeployServer" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+</pmd>

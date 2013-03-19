@@ -1,0 +1,5 @@
+org.jclouds.opsource.servers
+org.jclouds.opsource.servers.config
+org.jclouds.opsource.servers.domain
+org.jclouds.opsource.servers.features
+org.jclouds.opsource.servers.handlers
