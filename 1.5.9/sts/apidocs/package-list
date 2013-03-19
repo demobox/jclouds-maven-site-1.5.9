@@ -1,0 +1,5 @@
+org.jclouds.sts
+org.jclouds.sts.config
+org.jclouds.sts.domain
+org.jclouds.sts.options
+org.jclouds.sts.xml
