@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Mar 19 16:22:36 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="5"/>
+    <methods value="15"/>
+    <srcfiles value="3"/>
+    <srclines value="26"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="80%  (4/5)"/>
+      <coverage type="method, %" value="73%  (11/15)"/>
+      <coverage type="block, %" value="79%  (107/136)"/>
+      <coverage type="line, %" value="85%  (22/26)"/>
+
+      <package name="org.jclouds.trystack.nova">
+        <coverage type="class, %" value="75%  (3/4)"/>
+        <coverage type="method, %" value="69%  (9/13)"/>
+        <coverage type="block, %" value="77%  (95/124)"/>
+        <coverage type="line, %" value="82%  (18/22)"/>
+
+        <srcfile name="TryStackNovaServiceAdapter.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="20%  (1/5)"/>
+          <coverage type="block, %" value="19%  (7/36)"/>
+          <coverage type="line, %" value="33%  (2/6)"/>
+
+          <class name="TryStackNovaServiceAdapter$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/21)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="TryStackNovaServiceAdapter$1 (TryStackNovaServiceAdapter): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (ImageInZone): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+          <class name="TryStackNovaServiceAdapter">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="47%  (7/15)"/>
+            <coverage type="line, %" value="67%  (2/3)"/>
+
+            <method name="listImages (): Iterable">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="TryStackNovaServiceAdapter (NovaApi, Supplier, RemoveFloatingIpFromNodeAndDeallocate, LoadingCache): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="TryStackNovaProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (8/8)"/>
+          <coverage type="block, %" value="100% (88/88)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="TryStackNovaProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (32/32)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="TryStackNovaProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="TryStackNovaProviderMetadata (TryStackNovaProviderMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): TryStackNovaProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toBuilder (): TryStackNovaProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="TryStackNovaProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (56/56)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="TryStackNovaProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (45/45)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): TryStackNovaProviderMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): TryStackNovaProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.trystack.nova.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (12/12)"/>
+        <coverage type="line, %" value="100% (4/4)"/>
+
+        <srcfile name="TryStackNovaServiceContextModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (12/12)"/>
+          <coverage type="line, %" value="100% (4/4)"/>
+
+          <class name="TryStackNovaServiceContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (12/12)"/>
+            <coverage type="line, %" value="100% (4/4)"/>
+
+            <method name="TryStackNovaServiceContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
