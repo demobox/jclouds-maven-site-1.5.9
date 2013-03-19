@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Mar 19 16:22:36 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="2"/>
+    <methods value="7"/>
+    <srcfiles value="1"/>
+    <srclines value="22"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (2/2)"/>
+      <coverage type="method, %" value="57%  (4/7)"/>
+      <coverage type="block, %" value="90%  (150/167)"/>
+      <coverage type="line, %" value="77%  (17/22)"/>
+
+      <package name="org.jclouds.aws.sqs">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="57%  (4/7)"/>
+        <coverage type="block, %" value="90%  (150/167)"/>
+        <coverage type="line, %" value="77%  (17/22)"/>
+
+        <srcfile name="AWSSQSProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="57%  (4/7)"/>
+          <coverage type="block, %" value="90%  (150/167)"/>
+          <coverage type="line, %" value="77%  (17/22)"/>
+
+          <class name="AWSSQSProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="84%  (57/68)"/>
+            <coverage type="line, %" value="82%  (14/17)"/>
+
+            <method name="AWSSQSProviderMetadata (AWSSQSProviderMetadata$Builder): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toBuilder (): AWSSQSProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AWSSQSProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): AWSSQSProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (49/49)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+          </class>
+          <class name="AWSSQSProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="94%  (93/99)"/>
+            <coverage type="line, %" value="60%  (3/5)"/>
+
+            <method name="fromProviderMetadata (ProviderMetadata): AWSSQSProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSSQSProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (93/93)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
