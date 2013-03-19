@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T19:55:24.950">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudservers/src/main/java/org/jclouds/cloudservers/CloudServersClient.java">
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="50" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudservers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.ResourceNotFoundException'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/apis/cloudservers/src/main/java/org/jclouds/cloudservers/domain/BackupSchedule.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="64" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudservers.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkNotNull'
+</violation>
+</file>
+</pmd>
