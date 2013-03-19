@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Mar 18 16:08:18 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="3"/>
+    <classes value="4"/>
+    <methods value="13"/>
+    <srcfiles value="3"/>
+    <srclines value="31"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="75%  (3/4)"/>
+      <coverage type="method, %" value="54%  (7/13)"/>
+      <coverage type="block, %" value="79%  (118/149)"/>
+      <coverage type="line, %" value="68%  (21/31)"/>
+
+      <package name="org.jclouds.greenqloud.compute.config">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/12)"/>
+        <coverage type="line, %" value="0%   (0/4)"/>
+
+        <srcfile name="GreenQloudComputeComputeServiceContextModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/12)"/>
+          <coverage type="line, %" value="0%   (0/4)"/>
+
+          <class name="GreenQloudComputeComputeServiceContextModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/12)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="GreenQloudComputeComputeServiceContextModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.greenqloud.compute">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="50%  (4/8)"/>
+        <coverage type="block, %" value="79%  (72/91)"/>
+        <coverage type="line, %" value="62%  (10/16)"/>
+
+        <srcfile name="GreenQloudComputeProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="50%  (4/8)"/>
+          <coverage type="block, %" value="79%  (72/91)"/>
+          <coverage type="line, %" value="62%  (10/16)"/>
+
+          <class name="GreenQloudComputeProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="block, %" value="75%  (24/32)"/>
+            <coverage type="line, %" value="70%  (7/10)"/>
+
+            <method name="GreenQloudComputeProviderMetadata (GreenQloudComputeProviderMetadata$Builder): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toBuilder (): GreenQloudComputeProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="GreenQloudComputeProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): GreenQloudComputeProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="GreenQloudComputeProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="81%  (48/59)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="build (): GreenQloudComputeProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): GreenQloudComputeProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="GreenQloudComputeProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (48/48)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.greenqloud.compute.strategy">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (3/3)"/>
+        <coverage type="block, %" value="100% (46/46)"/>
+        <coverage type="line, %" value="100% (11/11)"/>
+
+        <srcfile name="GreenQloudComputeReviseParsedImage.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="100% (46/46)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="GreenQloudComputeReviseParsedImage">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (46/46)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="GreenQloudComputeReviseParsedImage (Map): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="reviseParsedImage (Image, ImageBuilder, OsFamily, OperatingSystem$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
