@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-19T18:18:49.360">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/openstack-glance/src/main/java/org/jclouds/openstack/glance/v1_0/functions/ParseImageDetailsFromHeaders.java">
+<violation beginline="19" endline="88" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.glance.v1_0.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/openstack-glance/src/main/java/org/jclouds/openstack/glance/v1_0/options/ListImageOptions.java">
+<violation beginline="19" endline="270" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.glance.v1_0.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/openstack-glance/src/main/java/org/jclouds/openstack/glance/v1_0/options/UpdateImageOptions.java">
+<violation beginline="19" endline="255" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.glance.v1_0.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

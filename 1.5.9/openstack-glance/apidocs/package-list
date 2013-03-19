@@ -1,0 +1,8 @@
+org.jclouds.openstack.glance.v1_0
+org.jclouds.openstack.glance.v1_0.config
+org.jclouds.openstack.glance.v1_0.domain
+org.jclouds.openstack.glance.v1_0.features
+org.jclouds.openstack.glance.v1_0.functions
+org.jclouds.openstack.glance.v1_0.functions.internal
+org.jclouds.openstack.glance.v1_0.handlers
+org.jclouds.openstack.glance.v1_0.options
