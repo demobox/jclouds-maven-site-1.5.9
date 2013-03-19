@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>BridgedIfStringToBridgedIfTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../testapidocs/org/jclouds/virtualbox/functions/BridgedIfStringToBridgedIfTest.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <strong class="jxr_keyword">package</strong> org.jclouds.virtualbox.functions;
+<a class="jxr_linenumber" name="2" href="#2">2</a>   
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.testng.Assert.assertEquals;
+<a class="jxr_linenumber" name="4" href="#4">4</a>   
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <strong class="jxr_keyword">import</strong> org.jclouds.virtualbox.domain.BridgedIf;
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <strong class="jxr_keyword">import</strong> org.testng.annotations.Test;
+<a class="jxr_linenumber" name="7" href="#7">7</a>   
+<a class="jxr_linenumber" name="8" href="#8">8</a>   @Test(groups = <span class="jxr_string">"live"</span>, singleThreaded = <strong class="jxr_keyword">true</strong>, testName = <span class="jxr_string">"BridgedIfStringToBridgedIfTest"</span>)
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/virtualbox/functions/BridgedIfStringToBridgedIfTest.html">BridgedIfStringToBridgedIfTest</a> {
+<a class="jxr_linenumber" name="10" href="#10">10</a>  		
+<a class="jxr_linenumber" name="11" href="#11">11</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String en0 = <span class="jxr_string">"Name:            en0: Ethernet\n"</span> +
+<a class="jxr_linenumber" name="12" href="#12">12</a>  	<span class="jxr_string">"GUID:            00306e65-0000-4000-8000-3c0754205d2f\n"</span> + 
+<a class="jxr_linenumber" name="13" href="#13">13</a>  	<span class="jxr_string">"Dhcp:            Disabled\n"</span> +
+<a class="jxr_linenumber" name="14" href="#14">14</a>  	<span class="jxr_string">"IPAddress:       192.168.56.1\n"</span> +
+<a class="jxr_linenumber" name="15" href="#15">15</a>  	<span class="jxr_string">"NetworkMask:     255.255.255.0\n"</span> +
+<a class="jxr_linenumber" name="16" href="#16">16</a>  	<span class="jxr_string">"IPV6Address:     \n"</span> +
+<a class="jxr_linenumber" name="17" href="#17">17</a>  	<span class="jxr_string">"IPV6NetworkMaskPrefixLength: 0\n"</span> +
+<a class="jxr_linenumber" name="18" href="#18">18</a>  	<span class="jxr_string">"HardwareAddress: 3c:07:54:20:5d:2f\n"</span> +
+<a class="jxr_linenumber" name="19" href="#19">19</a>  	<span class="jxr_string">"MediumType:      Ethernet\n"</span> +
+<a class="jxr_linenumber" name="20" href="#20">20</a>  	<span class="jxr_string">"Status:          Up\n"</span> +
+<a class="jxr_linenumber" name="21" href="#21">21</a>  	<span class="jxr_string">"VBoxNetworkName: HostInterfaceNetworking-en0: Ethernet\n"</span>;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  
+<a class="jxr_linenumber" name="23" href="#23">23</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String en1 = <span class="jxr_string">"Name:            en1: Wi-Fi (AirPort)\n"</span> +
+<a class="jxr_linenumber" name="24" href="#24">24</a>  	<span class="jxr_string">"GUID:            00316e65-0000-4000-8000-28cfdaf2917a\n"</span> +
+<a class="jxr_linenumber" name="25" href="#25">25</a>  	<span class="jxr_string">"Dhcp:            Disabled\n"</span> +
+<a class="jxr_linenumber" name="26" href="#26">26</a>  	<span class="jxr_string">"IPAddress:       192.168.57.1\n"</span> +
+<a class="jxr_linenumber" name="27" href="#27">27</a>  	<span class="jxr_string">"NetworkMask:     255.255.255.0\n"</span> +
+<a class="jxr_linenumber" name="28" href="#28">28</a>  	<span class="jxr_string">"IPV6Address:     \n"</span> +
+<a class="jxr_linenumber" name="29" href="#29">29</a>  	<span class="jxr_string">"IPV6NetworkMaskPrefixLength: 0\n"</span> +
+<a class="jxr_linenumber" name="30" href="#30">30</a>  	<span class="jxr_string">"HardwareAddress: 28:cf:da:f2:91:7a\n"</span> +
+<a class="jxr_linenumber" name="31" href="#31">31</a>  	<span class="jxr_string">"MediumType:      Ethernet\n"</span> +
+<a class="jxr_linenumber" name="32" href="#32">32</a>  	<span class="jxr_string">"Status:          Up\n"</span> +
+<a class="jxr_linenumber" name="33" href="#33">33</a>  	<span class="jxr_string">"VBoxNetworkName: HostInterfaceNetworking-en1: Wi-Fi (AirPort)\n"</span>;
+<a class="jxr_linenumber" name="34" href="#34">34</a>  
+<a class="jxr_linenumber" name="35" href="#35">35</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String p2p0 = <span class="jxr_string">"Name:            p2p0\n"</span> +
+<a class="jxr_linenumber" name="36" href="#36">36</a>  	<span class="jxr_string">"GUID:            30703270-0000-4000-8000-0acfdaf2917a\n"</span> +
+<a class="jxr_linenumber" name="37" href="#37">37</a>  	<span class="jxr_string">"Dhcp:            Disabled\n"</span> +
+<a class="jxr_linenumber" name="38" href="#38">38</a>  	<span class="jxr_string">"IPAddress:       192.168.58.1\n"</span> +
+<a class="jxr_linenumber" name="39" href="#39">39</a>  	<span class="jxr_string">"NetworkMask:     255.255.255.0\n"</span> +
+<a class="jxr_linenumber" name="40" href="#40">40</a>  	<span class="jxr_string">"IPV6Address:     \n"</span> +
+<a class="jxr_linenumber" name="41" href="#41">41</a>  	<span class="jxr_string">"IPV6NetworkMaskPrefixLength: 0\n"</span> +
+<a class="jxr_linenumber" name="42" href="#42">42</a>  	<span class="jxr_string">"HardwareAddress: 0a:cf:da:f2:91:7a\n"</span> +
+<a class="jxr_linenumber" name="43" href="#43">43</a>  	<span class="jxr_string">"MediumType:      Ethernet\n"</span> +
+<a class="jxr_linenumber" name="44" href="#44">44</a>  	<span class="jxr_string">"Status:          Down\n"</span> +
+<a class="jxr_linenumber" name="45" href="#45">45</a>  	<span class="jxr_string">"VBoxNetworkName: HostInterfaceNetworking-p2p0\n"</span>;
+<a class="jxr_linenumber" name="46" href="#46">46</a>  
+<a class="jxr_linenumber" name="47" href="#47">47</a>  	@Test
+<a class="jxr_linenumber" name="48" href="#48">48</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> transformRawBridgedifToBridgedIf() {
+<a class="jxr_linenumber" name="49" href="#49">49</a>  		BridgedIf bridgedIfEn1 = <strong class="jxr_keyword">new</strong> BridgedIfStringToBridgedIf().apply(en1);
+<a class="jxr_linenumber" name="50" href="#50">50</a>  	      assertEquals(bridgedIfEn1.getName(), <span class="jxr_string">"en1: Wi-Fi (AirPort)"</span>);
+<a class="jxr_linenumber" name="51" href="#51">51</a>  	}
+<a class="jxr_linenumber" name="52" href="#52">52</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+

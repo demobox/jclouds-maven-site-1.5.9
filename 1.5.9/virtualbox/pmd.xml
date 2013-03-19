@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-03-18T20:24:54.962">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/VirtualBoxApiMetadata.java">
+<violation beginline="19" endline="129" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/compute/VirtualBoxComputeServiceAdapter.java">
+<violation beginline="20" endline="269" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/compute/extensions/VirtualBoxImageExtension.java">
+<violation beginline="20" endline="170" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.compute.extensions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="108" endline="109" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.virtualbox.compute.extensions" class="VirtualBoxImageExtension" method="buildImageTemplateFromNode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/CloneAndRegisterMachineFromIMachineIfNotAlreadyExists.java">
+<violation beginline="65" endline="65" begincolumn="32" endcolumn="35" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.virtualbox.functions" class="CloneAndRegisterMachineFromIMachineIfNotAlreadyExists" variable="lock" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'lock'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/IMachineToIpAddress.java">
+<violation beginline="70" endline="74" begincolumn="13" endcolumn="33" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.virtualbox.functions" class="IMachineToIpAddress" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/IMachineToSshClient.java">
+<violation beginline="112" endline="112" begincolumn="42" endcolumn="50" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.virtualbox.functions" class="IMachineToSshClient" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/MastersLoadingCache.java">
+<violation beginline="20" endline="318" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="310" endline="313" begincolumn="10" endcolumn="24" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.virtualbox.functions" class="MastersLoadingCache" method="getFilePathOrDownload" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/NodeCreator.java">
+<violation beginline="20" endline="308" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="46" endline="46" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.javax.annotation.Nullable'
+</violation>
+<violation beginline="104" endline="119" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.virtualbox.functions" class="NodeCreator" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'scriptRunnerFactory'.
+</violation>
+<violation beginline="244" endline="244" begincolumn="28" endcolumn="42" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.virtualbox.functions" class="NodeCreator" method="assignDHCPtoHostOnlyInterface" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/SendScancodes.java">
+<violation beginline="19" endline="79" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/functions/admin/StartVBoxIfNotAlreadyRunning.java">
+<violation beginline="130" endline="132" begincolumn="10" endcolumn="59" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.virtualbox.functions.admin" class="StartVBoxIfNotAlreadyRunning" method="start" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.9/labs/virtualbox/src/main/java/org/jclouds/virtualbox/predicates/IMachinePredicates.java">
+<violation beginline="19" endline="68" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.virtualbox.predicates" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

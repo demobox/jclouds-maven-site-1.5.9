@@ -1,0 +1,11 @@
+org.jclouds.virtualbox
+org.jclouds.virtualbox.compute
+org.jclouds.virtualbox.compute.extensions
+org.jclouds.virtualbox.config
+org.jclouds.virtualbox.domain
+org.jclouds.virtualbox.functions
+org.jclouds.virtualbox.functions.admin
+org.jclouds.virtualbox.predicates
+org.jclouds.virtualbox.settings
+org.jclouds.virtualbox.statements
+org.jclouds.virtualbox.util
