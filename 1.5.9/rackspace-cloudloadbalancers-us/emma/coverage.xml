@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Mar 19 16:22:36 EDT 2013 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="2"/>
+    <methods value="8"/>
+    <srcfiles value="1"/>
+    <srclines value="17"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100% (2/2)"/>
+      <coverage type="method, %" value="38%  (3/8)"/>
+      <coverage type="block, %" value="67%  (83/123)"/>
+      <coverage type="line, %" value="35%  (6/17)"/>
+
+      <package name="org.jclouds.rackspace.cloudloadbalancers.us">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="38%  (3/8)"/>
+        <coverage type="block, %" value="67%  (83/123)"/>
+        <coverage type="line, %" value="35%  (6/17)"/>
+
+        <srcfile name="CloudLoadBalancersUSProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="38%  (3/8)"/>
+          <coverage type="block, %" value="67%  (83/123)"/>
+          <coverage type="line, %" value="35%  (6/17)"/>
+
+          <class name="CloudLoadBalancersUSProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="40%  (2/5)"/>
+            <coverage type="block, %" value="22%  (8/37)"/>
+            <coverage type="line, %" value="27%  (3/11)"/>
+
+            <method name="CloudLoadBalancersUSProviderMetadata (CloudLoadBalancersUSProviderMetadata$Builder): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="toBuilder (): CloudLoadBalancersUSProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="CloudLoadBalancersUSProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): CloudLoadBalancersUSProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="CloudLoadBalancersUSProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="87%  (75/86)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="build (): CloudLoadBalancersUSProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): CloudLoadBalancersUSProviderMetadata$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="CloudLoadBalancersUSProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (75/75)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
